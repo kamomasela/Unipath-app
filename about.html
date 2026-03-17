@@ -213,7 +213,7 @@
 
       <!-- Back / Skip link -->
       <div>
-        <a href="./index.html" class="about-back" id="back-link">
+        <a href="./index.html?from=intro" class="about-back" id="back-link">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -351,25 +351,20 @@
 
       <!-- CTA back to app -->
       <div>
-        <a href="./index.html" class="cta-btn">Start Checking My APS</a>
+        <a href="./index.html?from=intro" class="cta-btn">Start Checking My APS</a>
       </div>
 
       <p class="footer-note">UniPath · Data sourced from 2026 undergraduate prospectuses</p>
 
     </main>
     <script>
-      // Show "Skip" when arriving fresh, "← Back to App" when navigating from the calculator
-      const isFirstVisit = !sessionStorage.getItem("unipath_came_from_app");
-      if (isFirstVisit) {
+      // Show "Skip" when arriving fresh (redirected from index), "← Back to App" when coming from the calculator
+      const cameFromApp = new URLSearchParams(window.location.search).get("from") === "app";
+      if (!cameFromApp) {
         document.getElementById("back-label").textContent = "Skip";
         const svg = document.querySelector("#back-link svg");
         if (svg) svg.remove();
       }
-
-      // Set session flag when navigating to the app
-      document.querySelectorAll("a[href='./index.html']").forEach((a) => {
-        a.addEventListener("click", () => sessionStorage.setItem("unipath_came_from_app", "1"));
-      });
     </script>
   </body>
 </html>

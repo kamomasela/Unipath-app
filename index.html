@@ -13,7 +13,7 @@
       <header class="hero">
         <div class="hero-top">
           <h1>UniPath</h1>
-          <a href="./about.html" class="info-btn" aria-label="About UniPath">
+          <a href="./about.html?from=app" class="info-btn" aria-label="About UniPath">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
               <path d="M12 11v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -74,9 +74,9 @@
     </template>
 
     <script>
-      // Show the welcome screen every time the app is opened fresh.
-      // sessionStorage clears when the tab/app is closed, so this fires on every new session.
-      if (!sessionStorage.getItem("unipath_came_from_app")) {
+      // Show the welcome screen on every fresh open.
+      // Only skip the redirect if arriving via ?from=intro (clicked from about page).
+      if (new URLSearchParams(window.location.search).get("from") !== "intro") {
         window.location.replace("./about.html");
       }
     </script>
