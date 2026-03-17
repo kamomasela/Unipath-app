@@ -1,0 +1,29 @@
+{
+  "name": "unipath-app",
+  "version": "1.0.0",
+  "description": "This is a mobile-first MVP prototype for UniPath.",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:web": "bash ./tools/build_web_assets.sh",
+    "ingest": "python3 tools/parse_csv_catalogue.py && python3 tools/validate_programme_catalogue.py && python3 tools/ingest_rules.py && python3 tools/promote_rules.py",
+    "ingest:csv": "python3 tools/parse_csv_catalogue.py && python3 tools/promote_rules.py && npm run build:web",
+    "source:health": "python3 tools/source_health_check.py",
+    "android:sync": "npm run build:web && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:apk": "cd android && ./gradlew assembleRelease",
+    "pwa:bundle": "npm run ingest && npm run build:web && bash ./tools/package_pwa_bundle.sh",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.1.0",
+    "@capacitor/cli": "^8.1.0",
+    "@capacitor/core": "^8.1.0"
+  }
+}

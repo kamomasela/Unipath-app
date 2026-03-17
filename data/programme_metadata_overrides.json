@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-03-01T00:00:00Z",
+  "universities": {
+    "uct": {
+      "application_fee": "R100",
+      "aps_formula": "uct_percentage_sum_top6_excl_lo",
+      "programmes": {
+        "BSc Engineering": {
+          "minimum_aps": 480,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream"
+        },
+        "BCom General": {
+          "minimum_aps": 420,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream"
+        },
+        "BCom General (Extended)": {
+          "minimum_aps": 390,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended"
+        },
+        "BA Law": {
+          "minimum_aps": 430,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream"
+        }
+      }
+    },
+    "uwc": {
+      "application_fee": "R100",
+      "aps_formula": "uwc_weighted_points",
+      "programmes": {
+        "BCom": { "minimum_aps": 35, "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BSc": { "minimum_aps": 38, "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BA": { "minimum_aps": 32, "competitive_flag": false, "mainstream_or_extended": "mainstream" }
+      }
+    },
+    "up": {
+      "application_fee": "R300",
+      "aps_formula": "nsc_top6_excl_lo",
+      "programmes": {
+        "BEng": { "competitive_flag": true, "mainstream_or_extended": "mainstream" },
+        "BCom": { "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BA": { "competitive_flag": false, "mainstream_or_extended": "mainstream" }
+      }
+    },
+    "wits": {
+      "application_fee": "R200",
+      "aps_formula": "wits_weighted_best7_including_lo",
+      "programmes": {
+        "BSc Engineering": { "minimum_aps": 44, "competitive_flag": true, "mainstream_or_extended": "mainstream" },
+        "BCom": { "minimum_aps": 36, "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BA": { "minimum_aps": 34, "competitive_flag": false, "mainstream_or_extended": "mainstream" }
+      }
+    },
+    "uj": {
+      "application_fee": "Varies by year",
+      "aps_formula": "nsc_top6_excl_lo",
+      "programmes": {
+        "BEngTech": { "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BEngTech (Extended)": {
+          "minimum_aps": 31,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended"
+        },
+        "BCom Accounting": { "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BA": { "competitive_flag": false, "mainstream_or_extended": "mainstream" }
+      }
+    },
+    "sun": {
+      "application_fee": "R100",
+      "aps_formula": "sun_selection_mark_average",
+      "programmes": {
+        "BSc": { "minimum_aps": 70, "competitive_flag": true, "mainstream_or_extended": "mainstream" },
+        "BCom": { "minimum_aps": 65, "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BA": { "minimum_aps": 62, "competitive_flag": false, "mainstream_or_extended": "mainstream" }
+      }
+    },
+    "ul": {
+      "application_fee": "R200",
+      "aps_formula": "nsc_top6_excl_lo",
+      "programmes": {
+        "BSc Health Sciences": { "competitive_flag": true, "mainstream_or_extended": "mainstream" },
+        "BCom": { "competitive_flag": false, "mainstream_or_extended": "mainstream" },
+        "BA": { "competitive_flag": false, "mainstream_or_extended": "mainstream" }
+      }
+    }
+  }
+}

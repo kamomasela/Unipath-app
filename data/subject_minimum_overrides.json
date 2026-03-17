@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-03-01T00:00:00Z",
+  "universities": {
+    "uct": {
+      "BSc Engineering": [
+        { "subject": "Mathematics", "minimum_mark": 6 },
+        { "subject": "Physical Sciences", "minimum_mark": 6 }
+      ],
+      "BCom General": [
+        { "subject": "Mathematics", "minimum_mark": 5 }
+      ]
+    },
+    "uj": {
+      "BEngTech": [
+        { "subject": "Mathematics", "minimum_mark": 5 },
+        { "subject": "Physical Sciences", "minimum_mark": 5 }
+      ]
+    },
+    "wits": {
+      "BSc Engineering": [
+        { "subject": "Mathematics", "minimum_mark": 6 },
+        { "subject": "Physical Sciences", "minimum_mark": 6 }
+      ]
+    },
+    "sun": {
+      "BSc": [
+        { "subject": "Mathematics", "minimum_mark": 5 }
+      ]
+    },
+    "ul": {
+      "BSc Health Sciences": [
+        { "subject": "Mathematics", "minimum_mark": 5 },
+        { "subject": "Physical Sciences", "minimum_mark": 5 }
+      ]
+    }
+  }
+}

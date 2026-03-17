@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-03-05T16:43:19Z",
+  "universities": [
+    {
+      "id": "uct",
+      "name": "University of Cape Town",
+      "status": "temporarily_unavailable",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.uct.ac.za/students/prospective-students/undergraduate-prospectus"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.uct.ac.za/students/prospective-students/undergraduate-prospectus: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": []
+    },
+    {
+      "id": "uj",
+      "name": "University of Johannesburg",
+      "status": "temporarily_unavailable",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.uj.ac.za/study-uj-and-aid/undergraduate/undergraduate-prospectus-downloadable/",
+        "https://www.uj.ac.za/wp-content/uploads/2025/04/2026-undergraduate-prospectus-v5.pdf"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.uj.ac.za/study-uj-and-aid/undergraduate/undergraduate-prospectus-downloadable/: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://www.uj.ac.za/wp-content/uploads/2025/04/2026-undergraduate-prospectus-v5.pdf: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": []
+    },
+    {
+      "id": "uwc",
+      "name": "University of the Western Cape",
+      "status": "temporarily_unavailable",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.uwc.ac.za/study/all-areas-of-study/admissions-and-financial-aid"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [],
+      "extraction_confidence": 0.2,
+      "courses": []
+    },
+    {
+      "id": "up",
+      "name": "University of Pretoria",
+      "status": "temporarily_unavailable",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://drupalwebprod-files.up.ac.za/Public/2026-01/up_ug-prospectus-2026_nsc-ieb_devv4_web.zp260601.pdf?VersionId=mvtuDlg.4YojvcJdv.N7CcECIn5Hv132",
+        "https://www.up.ac.za/future-students/article/2744656/admission-requirements"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://drupalwebprod-files.up.ac.za/Public/2026-01/up_ug-prospectus-2026_nsc-ieb_devv4_web.zp260601.pdf?VersionId=mvtuDlg.4YojvcJdv.N7CcECIn5Hv132: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://www.up.ac.za/future-students/article/2744656/admission-requirements: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": []
+    },
+    {
+      "id": "wits",
+      "name": "University of the Witwatersrand",
+      "status": "temporarily_unavailable",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.wits.ac.za/undergraduate/apply/entry-requirements/nsc-ieb-entry-requirements/",
+        "https://www.wits.ac.za/undergraduate/apply/admission-point-score-aps/",
+        "https://www.wits.ac.za/course-finder/undergraduate/"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.wits.ac.za/undergraduate/apply/admission-point-score-aps/: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://www.wits.ac.za/course-finder/undergraduate/: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.3,
+      "courses": []
+    },
+    {
+      "id": "sun",
+      "name": "Stellenbosch University",
+      "status": "temporarily_unavailable",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.sun.ac.za/english/maties/Pages/Prospective-students.aspx",
+        "https://blogs.sun.ac.za/open-day/files/2025/02/Prospectus.pdf"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.sun.ac.za/english/maties/Pages/Prospective-students.aspx: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://blogs.sun.ac.za/open-day/files/2025/02/Prospectus.pdf: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": []
+    },
+    {
+      "id": "ul",
+      "name": "University of Limpopo",
+      "status": "temporarily_unavailable",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.ul.ac.za/wp-content/uploads/2025/03/Student-Prospectus-2026.pdf",
+        "https://www.ul.ac.za/undergraduate-studies/"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.ul.ac.za/undergraduate-studies/: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.3,
+      "courses": []
+    }
+  ]
+}

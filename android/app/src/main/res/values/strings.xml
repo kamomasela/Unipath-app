@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">unipath</string>
+    <string name="title_activity_main">unipath</string>
+    <string name="package_name">com.unipath.app</string>
+    <string name="custom_url_scheme">com.unipath.app</string>
+</resources>

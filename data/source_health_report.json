@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-03-01T14:21:59Z",
+  "universities": [
+    {
+      "id": "uct",
+      "name": "University of Cape Town",
+      "sources": [
+        {
+          "source_id": "uct-prospectus-2026",
+          "source_type": "prospectus_pdf",
+          "url": "https://uct.ac.za/media/685611",
+          "ok": false,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+        }
+      ]
+    },
+    {
+      "id": "uj",
+      "name": "University of Johannesburg",
+      "sources": [
+        {
+          "source_id": "uj-prospectus-2026",
+          "source_type": "prospectus_pdf",
+          "url": "https://www.uj.ac.za/wp-content/uploads/2025/04/2026-undergraduate-prospectus-v5.pdf",
+          "ok": false,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+        }
+      ]
+    },
+    {
+      "id": "up",
+      "name": "University of Pretoria",
+      "sources": [
+        {
+          "source_id": "up-prospectus-2026",
+          "source_type": "prospectus_pdf",
+          "url": "https://drupalwebprod-files.up.ac.za/Public/2026-01/up_ug-prospectus-2026_nsc-ieb_devv4_web.zp260601.pdf?VersionId=mvtuDlg.4YojvcJdv.N7CcECIn5Hv132",
+          "ok": false,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+        }
+      ]
+    },
+    {
+      "id": "wits",
+      "name": "University of the Witwatersrand",
+      "sources": [
+        {
+          "source_id": "wits-course-finder-undergrad",
+          "source_type": "aps_catalog_page",
+          "url": "https://www.wits.ac.za/course-finder/undergraduate/",
+          "ok": false,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+        }
+      ]
+    },
+    {
+      "id": "sun",
+      "name": "Stellenbosch University",
+      "sources": [
+        {
+          "source_id": "sun-prospectus-2026",
+          "source_type": "prospectus_pdf",
+          "url": "https://blogs.sun.ac.za/open-day/files/2025/02/Prospectus.pdf",
+          "ok": false,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+        }
+      ]
+    }
+  ]
+}

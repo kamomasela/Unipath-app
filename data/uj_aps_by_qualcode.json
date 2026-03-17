@@ -1,0 +1,1249 @@
+{
+  "B8BA3Q": {
+    "programme_name_hint": "B ARCHITECTURE",
+    "minimum_aps": 32,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B8DM3Q": {
+    "programme_name_hint": "DESIGN) BA (INDUSTRIAL",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 26,
+    "aps_technical_mathematics": null
+  },
+  "B8ID1Q": {
+    "programme_name_hint": "MEDIA DESIGN) BA (DIGITAL",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 26,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B8CD2Q": {
+    "programme_name_hint": "DESIGN) (COMMUNICATION",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 26,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B8BA6Q": {
+    "programme_name_hint": "(VISUAL ART) ✪",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 26,
+    "aps_technical_mathematics": 25
+  },
+  "B8FD1Q": {
+    "programme_name_hint": "(VISUAL ART) ✪",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 26,
+    "aps_technical_mathematics": 25
+  },
+  "B8BA7Q": {
+    "programme_name_hint": "DESIGN) BA (FASHION",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 26,
+    "aps_technical_mathematics": 25
+  },
+  "D8AT1Q": {
+    "programme_name_hint": "Diploma in Architecture",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 26
+  },
+  "D8FP1Q": {
+    "programme_name_hint": "Diploma in Fashion Production",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 23,
+    "aps_technical_mathematics": null
+  },
+  "D8JD1Q": {
+    "programme_name_hint": "ARCHITECTURE PRODUCTION",
+    "minimum_aps": null,
+    "aps_mathematics": 20,
+    "aps_mathematical_literacy": 21,
+    "aps_technical_mathematics": 22
+  },
+  "B34HNQ": {
+    "programme_name_hint": "B34HNQ",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": 26
+  },
+  "B34HRQ": {
+    "programme_name_hint": "B34HRQ MANAGEMENT HOSPITALITY HUMAN RESOURCE",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": 26
+  },
+  "B34TDQ": {
+    "programme_name_hint": "B34TDQ MANAGEMENT ACCOUNTING (CA) HOSPITALITY",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": 26,
+    "_propagated_from": true
+  },
+  "B34CAQ": {
+    "programme_name_hint": "B34CAQ ACCOUNTING (CA)",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": 26,
+    "_propagated_from": true
+  },
+  "B34A5Q": {
+    "programme_name_hint": "PSYCHOLOGY INDUSTRIAL",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": 26
+  },
+  "B34BMQ": {
+    "programme_name_hint": "B34BMQ FINANCE ENTREPRENEURIAL MANAGEMENT",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": 26,
+    "_propagated_from": true
+  },
+  "B3N14Q": {
+    "programme_name_hint": "MANAGEMENT ENTREPRENEURIAL",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B1CEMQ": {
+    "programme_name_hint": "ECONOMICS AND ECONOMETRICS",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B34INQ": {
+    "programme_name_hint": "BUSINESS MANAGEMENT",
+    "minimum_aps": null,
+    "aps_mathematics": 28,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B34F5Q": {
+    "programme_name_hint": "ACCOUNTING (BCom)",
+    "minimum_aps": null,
+    "aps_mathematics": 28,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B34IMQ": {
+    "programme_name_hint": "B34IMQ MANAGEMENT MARKETING AND LOGISTICS",
+    "minimum_aps": null,
+    "aps_mathematics": 27,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": null
+  },
+  "B1CISQ": {
+    "programme_name_hint": "B1CISQ MANAGEMENT INFORMATION MARKETING",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B1CMMQ": {
+    "programme_name_hint": "B1CMMQ SYSTEMS INFORMATION",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B34TLQ": {
+    "programme_name_hint": "B34TLQ MANAGEMENT INFORMATION",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B34BEQ": {
+    "programme_name_hint": "B34BEQ",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": 25
+  },
+  "B3NE4Q": {
+    "programme_name_hint": "ECONOMETRICS ECONOMICS AND",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": null
+  },
+  "B34FEQ": {
+    "programme_name_hint": "B34FEQ MANAGEMENT ACCOUNTING BUSINESS",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B34AEQ": {
+    "programme_name_hint": "B34AEQ ACCOUNTING",
+    "minimum_aps": null,
+    "aps_mathematics": 25,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "D34F9Q": {
+    "programme_name_hint": "OPERATIONS * FINANCIAL SERVICES",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "D34FBQ": {
+    "programme_name_hint": "D34FBQ TECHNOLOGY ACCOUNTANCY * BUSINESS INFORMATION",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22,
+    "_propagated_from": true
+  },
+  "D3A15Q": {
+    "programme_name_hint": "ACCOUNTANCY * D34FBQ",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22,
+    "_propagated_from": true
+  },
+  "D34LGQ": {
+    "programme_name_hint": "D34LGQ",
+    "minimum_aps": null,
+    "aps_mathematics": 24,
+    "aps_mathematical_literacy": 26,
+    "aps_technical_mathematics": 24
+  },
+  "D34MKQ": {
+    "programme_name_hint": "D34MKQ MARKETING ** LOGISTICS",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "D34P2Q": {
+    "programme_name_hint": "LOGISTICS D34MKQ",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "D34RMQ": {
+    "programme_name_hint": "D34RMQ MANAGEMENT TRANSPORTATION",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "D34SBQ": {
+    "programme_name_hint": "D34SBQ MANAGEMENT SMALL BUSINESS TOURISM",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22,
+    "_propagated_from": true
+  },
+  "D34TMQ": {
+    "programme_name_hint": "D34TMQ MANAGEMENT *** RETAIL BUSINESS SMALL BUSINESS",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22,
+    "_propagated_from": true
+  },
+  "D34TRQ": {
+    "programme_name_hint": "D34TRQ MANAGEMENT ** RETAIL BUSINESS",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "D34PEQ": {
+    "programme_name_hint": "D34PEQ MANAGEMENT PEOPLE SMALL BUSINESS",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "D34SEQ": {
+    "programme_name_hint": "D34SEQ MANAGEMENT LOGISTICS PEOPLE",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22,
+    "_propagated_from": true
+  },
+  "D34LEQ": {
+    "programme_name_hint": "D34LEQ LOGISTICS",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "D34TEQ": {
+    "programme_name_hint": "D34TEQ MANAGEMENT TRANSPORTATION",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 24,
+    "aps_technical_mathematics": 22
+  },
+  "B5BFPQ": {
+    "programme_name_hint": "B5BFPQ GRADE R-3 TEACHING",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5BITQ": {
+    "programme_name_hint": "B5BITQ GRADE 4-7 TEACHING",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5LOPQ": {
+    "programme_name_hint": "B5LOPQ",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5BSAQ": {
+    "programme_name_hint": "B5BSAQ ACCOUNTING",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5BSBQ": {
+    "programme_name_hint": "B5BSBQ BUSINESS MANAGEMENT",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5BSEQ": {
+    "programme_name_hint": "B5BSEQ ECONOMICS",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5LAZQ": {
+    "programme_name_hint": "B5LAZQ ISIZULU",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5LASQ": {
+    "programme_name_hint": "B5LASQ SEPEDI",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5LAFQ": {
+    "programme_name_hint": "B5LAFQ",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5LAEQ": {
+    "programme_name_hint": "B5LAEQ",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5SPSQ": {
+    "programme_name_hint": "B5SPSQ",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5SMMQ": {
+    "programme_name_hint": "B5SMMQ",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5SLSQ": {
+    "programme_name_hint": "B5SLSQ",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B5SGEQ": {
+    "programme_name_hint": "B5SGEQ",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B6CISQ": {
+    "programme_name_hint": "B6CISQ ENGINEERING ELECTRICAL AND MECHANICAL",
+    "minimum_aps": null,
+    "aps_mathematics": 32,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B6ELSQ": {
+    "programme_name_hint": "B6ELSQ CIVIL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 32,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B6MESQ": {
+    "programme_name_hint": "B6MESQ CIVIL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 32,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B6CE1Q": {
+    "programme_name_hint": "METALLURGY PHYSICAL",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6CV3Q": {
+    "programme_name_hint": "ENGINEERING MINING",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6EL1Q": {
+    "programme_name_hint": "ENGINEERING MECHANICAL",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6EXTQ": {
+    "programme_name_hint": "B6EXTQ ENGINEERING EXTRACTION INDUSTRIAL",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6IN2Q": {
+    "programme_name_hint": "ELECTRICAL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 28,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 28
+  },
+  "B6MC2Q": {
+    "programme_name_hint": "CIVIL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6MINQ": {
+    "programme_name_hint": "B6MINQ CHEMICAL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6PY2Q": {
+    "programme_name_hint": "ENGINEERING CHEMICAL B6MINQ",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6SU0Q": {
+    "programme_name_hint": "MINE SURVEYING",
+    "minimum_aps": null,
+    "aps_mathematics": 23,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 23
+  },
+  "B6CN0Q": {
+    "programme_name_hint": "CONSTRUCTION",
+    "minimum_aps": null,
+    "aps_mathematics": 30,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 30
+  },
+  "B6UP0Q": {
+    "programme_name_hint": "PLANNING REGIONAL URBAN AND",
+    "minimum_aps": null,
+    "aps_mathematics": 27,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "D6MASQ": {
+    "programme_name_hint": "D6MASQ MANAGEMENT OPERATIONS",
+    "minimum_aps": null,
+    "aps_mathematics": 20,
+    "aps_mathematical_literacy": 22,
+    "aps_technical_mathematics": null
+  },
+  "D6OPMQ": {
+    "programme_name_hint": "D6OPMQ SERVICES MANAGEMENT",
+    "minimum_aps": null,
+    "aps_mathematics": 19,
+    "aps_mathematical_literacy": 21,
+    "aps_technical_mathematics": null
+  },
+  "B6SC0Q": {
+    "programme_name_hint": "CONSTRUCTION",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 26
+  },
+  "B6CX3Q": {
+    "programme_name_hint": "METALLURGY PHYSICAL",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 22
+  },
+  "B6L1XQ": {
+    "programme_name_hint": "ENGINEERING MECHANICAL",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 22
+  },
+  "B6EX0Q": {
+    "programme_name_hint": "ENGINEERING INDUSTRIAL",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 26
+  },
+  "B6IX2Q": {
+    "programme_name_hint": "ELECTRICAL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 26
+  },
+  "B6MX2Q": {
+    "programme_name_hint": "CIVIL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 26
+  },
+  "B6PX2Q": {
+    "programme_name_hint": "CIVIL ENGINEERING",
+    "minimum_aps": null,
+    "aps_mathematics": 26,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": 26
+  },
+  "D6MAEQ": {
+    "programme_name_hint": "D6MAEQ MANAGEMENT OPERATIONS",
+    "minimum_aps": null,
+    "aps_mathematics": 20,
+    "aps_mathematical_literacy": 22,
+    "aps_technical_mathematics": null
+  },
+  "D6OPEQ": {
+    "programme_name_hint": "D6OPEQ SERVICES EXTENDED DIPLOMA PROGRAMMES MANAGEMENT",
+    "minimum_aps": null,
+    "aps_mathematics": 19,
+    "aps_mathematical_literacy": 21,
+    "aps_technical_mathematics": null
+  },
+  "B9S15Q": {
+    "programme_name_hint": "BIOKINETICS",
+    "minimum_aps": null,
+    "aps_mathematics": 32,
+    "aps_mathematical_literacy": 33,
+    "aps_technical_mathematics": null
+  },
+  "B9M01Q": {
+    "programme_name_hint": "RADIATION THERAPY",
+    "minimum_aps": null,
+    "aps_mathematics": 31,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9M03Q": {
+    "programme_name_hint": "NUCLEAR MEDICINE",
+    "minimum_aps": null,
+    "aps_mathematics": 31,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9M02Q": {
+    "programme_name_hint": "DIAGNOSTIC RADIOGRAPHY",
+    "minimum_aps": null,
+    "aps_mathematics": 31,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9M04Q": {
+    "programme_name_hint": "RADIOGRAPHY DIAGNOSTIC",
+    "minimum_aps": null,
+    "aps_mathematics": 31,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9C01Q": {
+    "programme_name_hint": "CHIROPRACTIC",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9CM1Q": {
+    "programme_name_hint": "MEDICINE COMPLEMENTARY",
+    "minimum_aps": 28,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9E01Q": {
+    "programme_name_hint": "(EMC) MEDICAL CARE EMERGENCY",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9B01Q": {
+    "programme_name_hint": "PODIATRY",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9P01Q": {
+    "programme_name_hint": "SCIENCE LABORATORY MEDICAL",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B9N02Q": {
+    "programme_name_hint": "NURSING",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9O02Q": {
+    "programme_name_hint": "B OPTOM",
+    "minimum_aps": 34,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9S14Q": {
+    "programme_name_hint": "SPORT MANAGEMENT",
+    "minimum_aps": null,
+    "aps_mathematics": 23,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B9SE1Q": {
+    "programme_name_hint": "SCIENCES EXERCISE SPORT AND",
+    "minimum_aps": null,
+    "aps_mathematics": 27,
+    "aps_mathematical_literacy": 28,
+    "aps_technical_mathematics": null
+  },
+  "D9S01Q": {
+    "programme_name_hint": "SPORT MANAGEMENT",
+    "minimum_aps": null,
+    "aps_mathematics": 22,
+    "aps_mathematical_literacy": 23,
+    "aps_technical_mathematics": null
+  },
+  "B7025Q": {
+    "programme_name_hint": "SOCIAL WORK",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7023Q": {
+    "programme_name_hint": "PRACTICE",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7026Q": {
+    "programme_name_hint": "PRACTICE",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7024Q": {
+    "programme_name_hint": "TECHNOLOGY ECONOMICS AND",
+    "minimum_aps": null,
+    "aps_mathematics": 27,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7015Q": {
+    "programme_name_hint": "AND LEADERSHIP DEVELOPMENT COMMUNITY",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7EX2Q": {
+    "programme_name_hint": "",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7EX3Q": {
+    "programme_name_hint": "LANGUAGE PRACTICE",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7EX4Q": {
+    "programme_name_hint": "LANGUAGE PRACTICE",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B7EX5Q": {
+    "programme_name_hint": "COMMUNICATION",
+    "minimum_aps": 27,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "D7002Q": {
+    "programme_name_hint": "COMMUNICATION PUBLIC RELATIONS AND",
+    "minimum_aps": 25,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "D7EX2Q": {
+    "programme_name_hint": "COMMUNICATION PUBLIC RELATIONS AND EXTENDED DIPLOMA PROGRAMME",
+    "minimum_aps": 24,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B4A01Q": {
+    "programme_name_hint": "BCOM (LAW)",
+    "minimum_aps": null,
+    "aps_mathematics": 31,
+    "aps_mathematical_literacy": 32,
+    "aps_technical_mathematics": null
+  },
+  "B4C01Q": {
+    "programme_name_hint": "BA (LAW)",
+    "minimum_aps": null,
+    "aps_mathematics": 31,
+    "aps_mathematical_literacy": 32,
+    "aps_technical_mathematics": null
+  },
+  "B4L03Q": {
+    "programme_name_hint": "BA (LAW)",
+    "minimum_aps": null,
+    "aps_mathematics": 31,
+    "aps_mathematical_literacy": 32,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2I01Q": {
+    "programme_name_hint": "COMPUTER SCIENCE AND INFORMATICS",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2I02Q": {
+    "programme_name_hint": "INFORMATION TECHNOLOGY",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2I04Q": {
+    "programme_name_hint": "TECHNOLOGY INFORMATION",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2L10Q": {
+    "programme_name_hint": "PSYCHOLOGY PHYSIOLOGY AND",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L11Q": {
+    "programme_name_hint": "BIOCHEMISTRY PHYSIOLOGY AND",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2L12Q": {
+    "programme_name_hint": "PHYSIOLOGY ZOOLOGY AND",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2L13Q": {
+    "programme_name_hint": "ZOOLOGY AND ENVIRONMENTAL MANAGEMENT",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2L14Q": {
+    "programme_name_hint": "MANAGEMENT ENVIRONMENTAL",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L15Q": {
+    "programme_name_hint": "ZOOLOGY AND BIOCHEMISTRY",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L16Q": {
+    "programme_name_hint": "BOTANY AND ZOOLOGY",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L17Q": {
+    "programme_name_hint": "BOTANY AND CHEMISTRY",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L18Q": {
+    "programme_name_hint": "BIOCHEMISTRY AND BOTANY",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L26Q": {
+    "programme_name_hint": "AND BOTANY BIOCHEMISTRY",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2L20Q": {
+    "programme_name_hint": "GEOLOGY AND",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L24Q": {
+    "programme_name_hint": "GEOLOGY AND ENVIRONMENTAL MANAGEMENT",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2L25Q": {
+    "programme_name_hint": "MANAGEMENT ENVIRONMENTAL GEOLOGY AND",
+    "minimum_aps": 30,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M40Q": {
+    "programme_name_hint": "FINANCIAL ORIENTATION) STATISTICS (WITH",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M41Q": {
+    "programme_name_hint": "PSYCHOLOGY MATHEMATICS AND",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2M42Q": {
+    "programme_name_hint": "MATHEMATICS AND MATHEMATICAL STATISTICS",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M43Q": {
+    "programme_name_hint": "INFORMATICS MATHEMATICS AND",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2M44Q": {
+    "programme_name_hint": "COMPUTER SCIENCE MATHEMATICS AND",
+    "minimum_aps": 33,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M45Q": {
+    "programme_name_hint": "MATHEMATICAL STATISTICS AND COMPUTER SCIENCE",
+    "minimum_aps": 33,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M46Q": {
+    "programme_name_hint": "COMPUTATIONAL SCIENCE",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M47Q": {
+    "programme_name_hint": "APPLIED MATHEMATICS AND MATHEMATICAL STATISTICS",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M54Q": {
+    "programme_name_hint": "APPLIED MATHEMATICS COMPUTER SCIENCE",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M55Q": {
+    "programme_name_hint": "COMPUTER SCIENCE APPLIED MATHEMATICS",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2M56Q": {
+    "programme_name_hint": "ACTUARIAL SCIENCE",
+    "minimum_aps": 33,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M57Q": {
+    "programme_name_hint": "MATHEMATICS AND ECONOMICS (WITH FINANCIAL ORIENTATION)",
+    "minimum_aps": 33,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2M52Q": {
+    "programme_name_hint": "MATHEMATICAL STATISTICS AND ECONOMICS (WITH FINANCIAL ORIENTATION)",
+    "minimum_aps": 33,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P70Q": {
+    "programme_name_hint": "CHEMISTRY GEOLOGY AND",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P71Q": {
+    "programme_name_hint": "PHYSICS CHEMISTRY AND",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P72Q": {
+    "programme_name_hint": "BIOCHEMISTRY AND CHEMISTRY",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P81Q": {
+    "programme_name_hint": "CHEMISTRY BIOCHEMISTRY AND",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P82Q": {
+    "programme_name_hint": "PHYSICS AND",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P83Q": {
+    "programme_name_hint": "PHYSICS AND APPLIED MATHEMATICS",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P77Q": {
+    "programme_name_hint": "GEOLOGY AND PHYSICS",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2P78Q": {
+    "programme_name_hint": "PHYSICS GEOLOGY AND",
+    "minimum_aps": 31,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E01Q": {
+    "programme_name_hint": "AND INFORMATICS COMPUTER SCIENCE",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E10Q": {
+    "programme_name_hint": "ZOOLOGY BOTANY AND",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E11Q": {
+    "programme_name_hint": "BIOCHEMISTRY AND BOTANY",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E12Q": {
+    "programme_name_hint": "BOTANY BIOCHEMISTRY AND",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2E13Q": {
+    "programme_name_hint": "ZOOLOGY ENVIRONMENTAL MANAGEMENT",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E14Q": {
+    "programme_name_hint": "MANAGEMENT ENVIRONMENTAL",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2E22Q": {
+    "programme_name_hint": "CHEMISTRY ZOOLOGY",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E17Q": {
+    "programme_name_hint": "PHYSIOLOGY PSYCHOLOGY",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E18Q": {
+    "programme_name_hint": "PHYSIOLOGY BIOCHEMISTRY",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E19Q": {
+    "programme_name_hint": "BIOCHEMISTRY PHYSIOLOGY",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E20Q": {
+    "programme_name_hint": "MANAGEMENT ENVIRONMENTAL",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2E40Q": {
+    "programme_name_hint": "PSYCHOLOGY",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E41Q": {
+    "programme_name_hint": "STATISTICS MATHEMATICAL",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2E42Q": {
+    "programme_name_hint": "INFORMATICS",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2E43Q": {
+    "programme_name_hint": "COMPUTER SCIENCE",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E44Q": {
+    "programme_name_hint": "APPLIED MATHEMATICS",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E45Q": {
+    "programme_name_hint": "APPLIED MATHEMATICS AND MATHEMATICAL STATISTICS",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E46Q": {
+    "programme_name_hint": "APPLIED MATHEMATICS COMPUTER SCIENCE",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E49Q": {
+    "programme_name_hint": "COMPUTER SCIENCE APPLIED MATHEMATICS",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "B2E70Q": {
+    "programme_name_hint": "PHYSICS AND APPLIED MATHEMATICS",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E71Q": {
+    "programme_name_hint": "APPLIED MATHEMATICS PHYSICS AND",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E72Q": {
+    "programme_name_hint": "CHEMISTRY AND",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E73Q": {
+    "programme_name_hint": "BIOCHEMISTRY AND CHEMISTRY",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "B2E74Q": {
+    "programme_name_hint": "CHEMISTRY BIOCHEMISTRY AND",
+    "minimum_aps": 26,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null,
+    "_propagated_from": true
+  },
+  "D2ACXQ": {
+    "programme_name_hint": "FOOD TECHNOLOGY",
+    "minimum_aps": 22,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "D2BTEQ": {
+    "programme_name_hint": "BIOTECHNOLOGY",
+    "minimum_aps": 22,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  },
+  "D2FTEQ": {
+    "programme_name_hint": "ANALYTICAL CHEMISTRY",
+    "minimum_aps": 23,
+    "aps_mathematics": null,
+    "aps_mathematical_literacy": null,
+    "aps_technical_mathematics": null
+  }
+}

@@ -1,0 +1,3803 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-03-05T16:43:19Z",
+  "source_pending_file": "/Users/tebogo_msimanga/Documents/Codex folder/unipath-app/data/pending_rules.json",
+  "source_decisions_file": "/Users/tebogo_msimanga/Documents/Codex folder/unipath-app/data/approval_decisions.json",
+  "source_subject_minimum_overrides_file": "/Users/tebogo_msimanga/Documents/Codex folder/unipath-app/data/subject_minimum_overrides.json",
+  "source_programme_metadata_overrides_file": "/Users/tebogo_msimanga/Documents/Codex folder/unipath-app/data/programme_metadata_overrides.json",
+  "source_programme_catalogue_file": "/Users/tebogo_msimanga/Documents/Codex folder/unipath-app/data/programme_catalogue.json",
+  "universities": [
+    {
+      "id": "uct",
+      "name": "University of Cape Town",
+      "status": "active",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.uct.ac.za/students/prospective-students/undergraduate-prospectus"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.uct.ac.za/students/prospective-students/undergraduate-prospectus: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": [
+        {
+          "name": "Bachelor of Business Science: Computer Science",
+          "faculty": "Commerce",
+          "minimum_aps": 450,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Economics",
+          "faculty": "Commerce",
+          "minimum_aps": 440,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Economics with Law",
+          "faculty": "Commerce",
+          "minimum_aps": 450,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Finance, Investment and Banking",
+          "faculty": "Commerce",
+          "minimum_aps": 460,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Finance with Accounting",
+          "faculty": "Commerce",
+          "minimum_aps": 460,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Information Systems",
+          "faculty": "Commerce",
+          "minimum_aps": 440,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Marketing",
+          "faculty": "Commerce",
+          "minimum_aps": 430,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Organisational Psychology",
+          "faculty": "Commerce",
+          "minimum_aps": 430,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Business Science: Statistics and Data Science",
+          "faculty": "Commerce",
+          "minimum_aps": 450,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BBusSc / BCom Actuarial Science",
+          "faculty": "Commerce",
+          "minimum_aps": 470,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 7
+            }
+          ]
+        },
+        {
+          "name": "BBusSc / BCom Quantitative Finance",
+          "faculty": "Commerce",
+          "minimum_aps": 460,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 7
+            }
+          ]
+        },
+        {
+          "name": "BCom Financial Accounting",
+          "faculty": "Commerce",
+          "minimum_aps": 430,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Economics with Law",
+          "faculty": "Commerce",
+          "minimum_aps": 420,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Economics with Finance",
+          "faculty": "Commerce",
+          "minimum_aps": 420,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Economics and Statistics",
+          "faculty": "Commerce",
+          "minimum_aps": 430,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Information Systems",
+          "faculty": "Commerce",
+          "minimum_aps": 420,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Information Systems and Computer Science",
+          "faculty": "Commerce",
+          "minimum_aps": 430,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Information Systems and Finance",
+          "faculty": "Commerce",
+          "minimum_aps": 430,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Management Studies",
+          "faculty": "Commerce",
+          "minimum_aps": 410,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom Philosophy, Politics and Economics",
+          "faculty": "Commerce",
+          "minimum_aps": 420,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom General",
+          "faculty": "Commerce",
+          "minimum_aps": 420,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom General (Extended)",
+          "faculty": "Commerce",
+          "minimum_aps": 390,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Architectural Studies",
+          "faculty": "Engineering & Built Environment",
+          "minimum_aps": 420,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Construction Studies",
+          "faculty": "Engineering & Built Environment",
+          "minimum_aps": 400,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Property Studies",
+          "faculty": "Engineering & Built Environment",
+          "minimum_aps": 390,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Geomatics",
+          "faculty": "Engineering & Built Environment",
+          "minimum_aps": 390,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Engineering",
+          "faculty": "Engineering & Built Environment",
+          "minimum_aps": 480,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "MBChB",
+          "faculty": "Health Sciences",
+          "minimum_aps": 500,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BSc Audiology",
+          "faculty": "Health Sciences",
+          "minimum_aps": 400,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Occupational Therapy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 380,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Physiotherapy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 380,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Speech-Language Pathology",
+          "faculty": "Health Sciences",
+          "minimum_aps": 380,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Higher Certificate in Disability Practice",
+          "faculty": "Health Sciences",
+          "minimum_aps": 280,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Advanced Diploma in Cosmetic Formulation Science",
+          "faculty": "Health Sciences",
+          "minimum_aps": 300,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Arts",
+          "faculty": "Humanities",
+          "minimum_aps": 350,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Social Science",
+          "faculty": "Humanities",
+          "minimum_aps": 350,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSocSc Philosophy, Politics and Economics",
+          "faculty": "Humanities",
+          "minimum_aps": 390,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Fine Art",
+          "faculty": "Humanities",
+          "minimum_aps": 370,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Theatre and Performance",
+          "faculty": "Humanities",
+          "minimum_aps": 360,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Music",
+          "faculty": "Humanities",
+          "minimum_aps": 360,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Social Work",
+          "faculty": "Humanities",
+          "minimum_aps": 360,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Film and Media Production",
+          "faculty": "Humanities",
+          "minimum_aps": 370,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Diploma in Music Performance",
+          "faculty": "Humanities",
+          "minimum_aps": 330,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Diploma in Theatre and Performance",
+          "faculty": "Humanities",
+          "minimum_aps": 330,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Laws (LLB)",
+          "faculty": "Law",
+          "minimum_aps": 460,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Science",
+          "faculty": "Science",
+          "minimum_aps": 400,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        }
+      ],
+      "application_fee": "R100",
+      "aps_formula": "uct_percentage_sum_top6_excl_lo",
+      "approval_notes": "Sample approval for development seed data.",
+      "approved_at": "2026-03-05T16:43:19Z"
+    },
+    {
+      "id": "uj",
+      "name": "University of Johannesburg",
+      "status": "active",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.uj.ac.za/study-uj-and-aid/undergraduate/undergraduate-prospectus-downloadable/",
+        "https://www.uj.ac.za/wp-content/uploads/2025/04/2026-undergraduate-prospectus-v5.pdf"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.uj.ac.za/study-uj-and-aid/undergraduate/undergraduate-prospectus-downloadable/: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://www.uj.ac.za/wp-content/uploads/2025/04/2026-undergraduate-prospectus-v5.pdf: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": [
+        {
+          "name": "BCom Accounting",
+          "faculty": "College of Business and Economics",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Economics and Econometrics",
+          "faculty": "College of Business and Economics",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Finance",
+          "faculty": "College of Business and Economics",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom Information Management",
+          "faculty": "College of Business and Economics",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom Marketing Management",
+          "faculty": "College of Business and Economics",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom Human Resource Management",
+          "faculty": "College of Business and Economics",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEngTech Chemical Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BEngTech Civil Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 28,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BEngTech Electrical Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BEngTech Industrial Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BEngTech Mechanical Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BEngTech Mining Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 23,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BEngTech (Extended)",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 31,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Architecture",
+          "faculty": "Art, Design and Architecture",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BA Design Communication Design",
+          "faculty": "Art, Design and Architecture",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Design Interior Design",
+          "faculty": "Art, Design and Architecture",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Visual Art",
+          "faculty": "Art, Design and Architecture",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Computer Science and Informatics",
+          "faculty": "Science",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Applied Mathematics and Mathematics",
+          "faculty": "Science",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Physical Sciences",
+          "faculty": "Science",
+          "minimum_aps": 31,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Life and Environmental Sciences",
+          "faculty": "Science",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Nursing",
+          "faculty": "Health Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Optometry",
+          "faculty": "Health Sciences",
+          "minimum_aps": 34,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Diagnostic Radiography",
+          "faculty": "Health Sciences",
+          "minimum_aps": 31,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Environmental Health",
+          "faculty": "Health Sciences",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA",
+          "faculty": "Humanities",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Psychology",
+          "faculty": "Humanities",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Communication and Media",
+          "faculty": "Humanities",
+          "minimum_aps": 29,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSocial Work",
+          "faculty": "Humanities",
+          "minimum_aps": 31,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "LLB",
+          "faculty": "Law",
+          "minimum_aps": 32,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom Law",
+          "faculty": "Law",
+          "minimum_aps": 31,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BA Law",
+          "faculty": "Law",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Foundation Phase Teaching",
+          "faculty": "Education",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Intermediate Phase Teaching",
+          "faculty": "Education",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Senior Phase and FET Teaching",
+          "faculty": "Education",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Mine Surveying",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 23,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 3
+            }
+          ]
+        },
+        {
+          "name": "BSc Construction",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Urban and Regional Planning",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 27,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Medical Laboratory Science",
+          "faculty": "Health Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Emergency Medical Care",
+          "faculty": "Health Sciences",
+          "minimum_aps": 27,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Chiropractic",
+          "faculty": "Health Sciences",
+          "minimum_aps": 28,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Podiatry",
+          "faculty": "Health Sciences",
+          "minimum_aps": 28,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Information Technology",
+          "faculty": "Science",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Computer Science and Informatics (Artificial Intelligence)",
+          "faculty": "Science",
+          "minimum_aps": 34,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        }
+      ],
+      "application_fee": "Varies by year",
+      "aps_formula": "nsc_top6_excl_lo",
+      "approval_notes": "Sample approval for development seed data.",
+      "approved_at": "2026-03-05T16:43:19Z"
+    },
+    {
+      "id": "uwc",
+      "name": "University of the Western Cape",
+      "status": "active",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.uwc.ac.za/study/all-areas-of-study/admissions-and-financial-aid"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [],
+      "extraction_confidence": 0.2,
+      "courses": [
+        {
+          "name": "Bachelor of Social Work",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Community Development",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Sport, Recreation and Exercise Science",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Dietetics and Nutrition",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Sport and Exercise Science",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Occupational Therapy",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Physiotherapy",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 39,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "B Nursing",
+          "faculty": "Community and Health Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BAdmin",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom (Financial Accounting)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom IS (Information Systems)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom Accounting",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom (4-year stream)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom Accounting (4-year stream)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Environmental and Water Science",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Biotechnology",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Biodiversity and Conservation Biology",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Medical Bioscience",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Chemical Sciences",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Applied Geology",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 33,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Physical Science",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Mathematical and Statistical Science",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Computer Science",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Pharmacy",
+          "faculty": "Natural Sciences",
+          "minimum_aps": 38,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 4
+            },
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Dental Surgery (BDS)",
+          "faculty": "Dentistry",
+          "minimum_aps": 40,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 4
+            },
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Oral Health (BOH)",
+          "faculty": "Dentistry",
+          "minimum_aps": 27,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Laws (LLB) (4-year)",
+          "faculty": "Law",
+          "minimum_aps": 37,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom Law",
+          "faculty": "Law",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BA (Law) (3-year)",
+          "faculty": "Law",
+          "minimum_aps": 37,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Accounting (FET), EMS (SP) and Mathematics (SP)",
+          "faculty": "Education",
+          "minimum_aps": 33,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA",
+          "faculty": "Arts and Humanities",
+          "minimum_aps": 35,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        }
+      ],
+      "application_fee": "R100",
+      "aps_formula": "uwc_weighted_points",
+      "approval_notes": "Approved with manual correction: Bachelor of Social Work minimum set to 34 UWC points.",
+      "approved_at": "2026-03-05T16:43:19Z"
+    },
+    {
+      "id": "up",
+      "name": "University of Pretoria",
+      "status": "active",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://drupalwebprod-files.up.ac.za/Public/2026-01/up_ug-prospectus-2026_nsc-ieb_devv4_web.zp260601.pdf?VersionId=mvtuDlg.4YojvcJdv.N7CcECIn5Hv132",
+        "https://www.up.ac.za/future-students/article/2744656/admission-requirements"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://drupalwebprod-files.up.ac.za/Public/2026-01/up_ug-prospectus-2026_nsc-ieb_devv4_web.zp260601.pdf?VersionId=mvtuDlg.4YojvcJdv.N7CcECIn5Hv132: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://www.up.ac.za/future-students/article/2744656/admission-requirements: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": [
+        {
+          "name": "BAdmin",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom (Accounting Sciences)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Agribusiness Management)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom (Economics)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Econometrics)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Financial Sciences)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Human Resource Management)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom (Informatics Information Systems)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Investment Management)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Law)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom (Marketing Management)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom (Supply Chain Management)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEng (4-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 35,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BEng (5-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 34,
+          "competitive_flag": true,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BInformation Science (Information and Knowledge Systems)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BIT (Information Systems)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Architecture)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc (Construction Management) (4-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc (Construction Management) (5-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 27,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc (Quantity Surveying) (4-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 27,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc (Quantity Surveying) (5-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc (Real Estate) (4-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 27,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc (Real Estate) (5-year programme)",
+          "faculty": "Engineering, Built Environment and Information Technology",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BEd Foundation Phase Teaching",
+          "faculty": "Education",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Intermediate Phase Teaching",
+          "faculty": "Education",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Senior Phase and Further Education and Training Teaching",
+          "faculty": "Education",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd (6-year programme)",
+          "faculty": "Education",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA",
+          "faculty": "Humanities",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA (Languages)",
+          "faculty": "Humanities",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA (Law)",
+          "faculty": "Humanities",
+          "minimum_aps": 34,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Audiology",
+          "faculty": "Humanities",
+          "minimum_aps": 35,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Extended programme",
+          "faculty": "Humanities",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Law Extended programme",
+          "faculty": "Humanities",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSW",
+          "faculty": "Humanities",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Clinical Medical Practice",
+          "faculty": "Health Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc in Dietetics",
+          "faculty": "Health Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc in Human Physiology, Genetics and Psychology",
+          "faculty": "Health Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc in Medical Sciences",
+          "faculty": "Health Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Nursing Science",
+          "faculty": "Health Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Occupational Therapy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Physiotherapy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Radiography in Diagnostics",
+          "faculty": "Health Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Speech-Language Pathology",
+          "faculty": "Health Sciences",
+          "minimum_aps": 35,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "MBChB",
+          "faculty": "Health Sciences",
+          "minimum_aps": 39,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BOH",
+          "faculty": "Health Sciences",
+          "minimum_aps": 37,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BChD",
+          "faculty": "Health Sciences",
+          "minimum_aps": 38,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "LLB (four-year programme)",
+          "faculty": "Law",
+          "minimum_aps": 33,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "LLB (five-year programme)",
+          "faculty": "Law",
+          "minimum_aps": 28,
+          "competitive_flag": true,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Applied Mathematics) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Biochemistry) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Biological Sciences) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Biotechnology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Chemistry) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Computer Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Ecology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Entomology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Environmental and Engineering Geology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Environmental Sciences) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Food Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Genetics) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Geography) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Geoinformatics) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Geology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Human Genetics) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Mathematics) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Meteorology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Microbiology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Physics) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Plant Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (Statistics and Data Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc (Zoology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc (5-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Animal Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Applied Plant and Soil Sciences) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Food Science and Technology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Agricultural Economics and Agribusiness Management) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Pasture Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Plant Pathology) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Production Animal Studies) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Soil Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Agronomy) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (Horticultural Science) (4-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric (5-year programme)",
+          "faculty": "Natural and Agricultural Sciences",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": []
+        },
+        {
+          "name": "BVSc",
+          "faculty": "Veterinary Science",
+          "minimum_aps": 38,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BTheol",
+          "faculty": "Theology and Religion",
+          "minimum_aps": 28,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        }
+      ],
+      "application_fee": "R300",
+      "aps_formula": "nsc_top6_excl_lo",
+      "approval_notes": "Temporarily approved using local sample source for MVP demo.",
+      "approved_at": "2026-03-05T16:43:19Z"
+    },
+    {
+      "id": "wits",
+      "name": "University of the Witwatersrand",
+      "status": "active",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.wits.ac.za/undergraduate/apply/entry-requirements/nsc-ieb-entry-requirements/",
+        "https://www.wits.ac.za/undergraduate/apply/admission-point-score-aps/",
+        "https://www.wits.ac.za/course-finder/undergraduate/"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.wits.ac.za/undergraduate/apply/admission-point-score-aps/: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://www.wits.ac.za/course-finder/undergraduate/: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.3,
+      "courses": [
+        {
+          "name": "BSc in Chemical Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BSc in Civil Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BSc in Electrical Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BSc in Industrial Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 40,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Materials Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 40,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Mechanical Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BSc in Mining Engineering",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 40,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Architecture",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 40,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Construction Studies",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 36,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Property Studies",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 38,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Urban and Regional Planning",
+          "faculty": "Engineering and the Built Environment",
+          "minimum_aps": 40,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Accounting Science",
+          "faculty": "Commerce, Law and Management",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Actuarial Science",
+          "faculty": "Commerce, Law and Management",
+          "minimum_aps": 44,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 7
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Commerce in Economics",
+          "faculty": "Commerce, Law and Management",
+          "minimum_aps": 39,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Commerce in Finance",
+          "faculty": "Commerce, Law and Management",
+          "minimum_aps": 39,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Commerce in Information Systems",
+          "faculty": "Commerce, Law and Management",
+          "minimum_aps": 39,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Commerce in Law",
+          "faculty": "Commerce, Law and Management",
+          "minimum_aps": 39,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Commerce in Management",
+          "faculty": "Commerce, Law and Management",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "MBChB",
+          "faculty": "Health Sciences",
+          "minimum_aps": 50,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Clinical Medical Practice",
+          "faculty": "Health Sciences",
+          "minimum_aps": 43,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Dental Science",
+          "faculty": "Health Sciences",
+          "minimum_aps": 48,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Oral Health Sciences",
+          "faculty": "Health Sciences",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Occupational Therapy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Pharmacy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 42,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Physiotherapy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 43,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Speech-Language Pathology",
+          "faculty": "Health Sciences",
+          "minimum_aps": 40,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA",
+          "faculty": "Humanities",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA (Film and Television)",
+          "faculty": "Humanities",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Law",
+          "faculty": "Humanities",
+          "minimum_aps": 39,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Arts in Digital Arts",
+          "faculty": "Humanities",
+          "minimum_aps": 34,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc",
+          "faculty": "Science",
+          "minimum_aps": 42,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Biological Sciences",
+          "faculty": "Science",
+          "minimum_aps": 42,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Geological Sciences",
+          "faculty": "Science",
+          "minimum_aps": 42,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Mathematical Sciences",
+          "faculty": "Science",
+          "minimum_aps": 44,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BSc Physical Sciences",
+          "faculty": "Science",
+          "minimum_aps": 44,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        }
+      ],
+      "application_fee": "R200",
+      "aps_formula": "wits_weighted_best7_including_lo",
+      "approval_notes": "Approved based on provided official 2026 Wits prospectus PDF.",
+      "approved_at": "2026-03-05T16:43:19Z"
+    },
+    {
+      "id": "sun",
+      "name": "Stellenbosch University",
+      "status": "active",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.sun.ac.za/english/maties/Pages/Prospective-students.aspx",
+        "https://blogs.sun.ac.za/open-day/files/2025/02/Prospectus.pdf"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.sun.ac.za/english/maties/Pages/Prospective-students.aspx: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "https://blogs.sun.ac.za/open-day/files/2025/02/Prospectus.pdf: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.2,
+      "courses": [
+        {
+          "name": "BAgric in Agribusiness Management",
+          "faculty": "AgriSciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BScAgric in Agricultural Economics",
+          "faculty": "AgriSciences",
+          "minimum_aps": 65,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BAgric in Agricultural Production and Management",
+          "faculty": "AgriSciences",
+          "minimum_aps": 58,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BScAgric in Animal Production Systems",
+          "faculty": "AgriSciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BScAgric in Plant and Soil Science",
+          "faculty": "AgriSciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BScAgric in Viticulture and Oenology",
+          "faculty": "AgriSciences",
+          "minimum_aps": 62,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Forestry (Forestry and Wood Sciences)",
+          "faculty": "AgriSciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Conservation Ecology",
+          "faculty": "AgriSciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Food Science",
+          "faculty": "AgriSciences",
+          "minimum_aps": 65,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BA in Humanities",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 60,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in Language and Culture",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 60,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in Development and the Environment",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 61,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in Drama and Theatre Studies",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 62,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in Music",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 62,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in Human Resource Management",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 62,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in International Studies",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 62,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in Political, Philosophical and Economic Studies",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 63,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA in Visual Arts",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 63,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Social Work",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Diploma in Practical Music",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 58,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Diploma in Sustainable Development",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 58,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Music (BMus)",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 63,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Advanced Diploma in Practical Music",
+          "faculty": "Arts and Social Sciences",
+          "minimum_aps": 58,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom (Economic Sciences)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Management Sciences)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 63,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Management Sciences) ECP",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 60,
+          "competitive_flag": false,
+          "mainstream_or_extended": "extended",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom (Mathematical Sciences)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 65,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BCom (Actuarial Science)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 7
+            }
+          ]
+        },
+        {
+          "name": "BCom (International Business)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 66,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BCom (Industrial Psychology)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 64,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BAcc",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 68,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BCom (Management Accounting)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 66,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BCom (Financial Accounting)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 66,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Data Science (BDatSci)",
+          "faculty": "Economic and Management Sciences",
+          "minimum_aps": 75,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 7
+            }
+          ]
+        },
+        {
+          "name": "BEd Foundation Phase Education",
+          "faculty": "Education",
+          "minimum_aps": 60,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Intermediate Phase Education",
+          "faculty": "Education",
+          "minimum_aps": 60,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEng (Electrical and Electronic)",
+          "faculty": "Engineering",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BEng (Industrial)",
+          "faculty": "Engineering",
+          "minimum_aps": 70,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BEng (Mechanical)",
+          "faculty": "Engineering",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BEng (Chemical)",
+          "faculty": "Engineering",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BEng (Mechatronic)",
+          "faculty": "Engineering",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BEng (Civil)",
+          "faculty": "Engineering",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BCom (Law)",
+          "faculty": "Law",
+          "minimum_aps": 65,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BAccLLB",
+          "faculty": "Law",
+          "minimum_aps": 70,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA (Law)",
+          "faculty": "Law",
+          "minimum_aps": 64,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "LLB",
+          "faculty": "Law",
+          "minimum_aps": 68,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Occupational Therapy",
+          "faculty": "Medicine and Health Sciences",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Physiotherapy",
+          "faculty": "Medicine and Health Sciences",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "MBChB",
+          "faculty": "Medicine and Health Sciences",
+          "minimum_aps": 78,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Speech-Language and Hearing Therapy",
+          "faculty": "Medicine and Health Sciences",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Nursing",
+          "faculty": "Medicine and Health Sciences",
+          "minimum_aps": 70,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc in Dietetics",
+          "faculty": "Medicine and Health Sciences",
+          "minimum_aps": 72,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Human Life Sciences",
+          "faculty": "Medicine and Health Sciences",
+          "minimum_aps": 68,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc",
+          "faculty": "Science",
+          "minimum_aps": 66,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc in Geoinformatics",
+          "faculty": "Science",
+          "minimum_aps": 68,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 6
+            }
+          ]
+        },
+        {
+          "name": "BSc in Earth Science",
+          "faculty": "Science",
+          "minimum_aps": 67,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BTh (Bachelor of Theology)",
+          "faculty": "Theology",
+          "minimum_aps": 58,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        }
+      ],
+      "application_fee": "R100",
+      "aps_formula": "sun_selection_mark_average",
+      "approval_notes": "Temporarily approved using local sample source for MVP demo.",
+      "approved_at": "2026-03-05T16:43:19Z"
+    },
+    {
+      "id": "ul",
+      "name": "University of Limpopo",
+      "status": "active",
+      "rule_version": "auto-2026-03-05",
+      "supports_grade11": true,
+      "supports_grade12": true,
+      "include_life_orientation": false,
+      "source_links": [
+        "https://www.ul.ac.za/wp-content/uploads/2025/03/Student-Prospectus-2026.pdf",
+        "https://www.ul.ac.za/undergraduate-studies/"
+      ],
+      "unavailable_reason": "Low-confidence extraction or missing clear APS/course linkage",
+      "ingestion_errors": [
+        "https://www.ul.ac.za/undergraduate-studies/: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "extraction_confidence": 0.3,
+      "courses": [
+        {
+          "name": "MBChB",
+          "faculty": "Health Sciences",
+          "minimum_aps": 32,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Life Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Nursing Science",
+          "faculty": "Health Sciences",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "Bachelor of Optometry",
+          "faculty": "Health Sciences",
+          "minimum_aps": 28,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Pharmacy",
+          "faculty": "Health Sciences",
+          "minimum_aps": 30,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "Bachelor of Dietetics",
+          "faculty": "Health Sciences",
+          "minimum_aps": 28,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSc Life Sciences",
+          "faculty": "Science and Agriculture",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Mathematical Sciences",
+          "faculty": "Science and Agriculture",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Physical Sciences",
+          "faculty": "Science and Agriculture",
+          "minimum_aps": 26,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 5
+            },
+            {
+              "subject": "Physical Sciences",
+              "minimum_mark": 5
+            }
+          ]
+        },
+        {
+          "name": "BSc Environmental and Resource Studies",
+          "faculty": "Science and Agriculture",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BSc Agriculture",
+          "faculty": "Science and Agriculture",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BCom Accounting",
+          "faculty": "Management and Law",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom Economics",
+          "faculty": "Management and Law",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": [
+            {
+              "subject": "Mathematics",
+              "minimum_mark": 4
+            }
+          ]
+        },
+        {
+          "name": "BCom Business Management",
+          "faculty": "Management and Law",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BAdmin Public Administration",
+          "faculty": "Management and Law",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "LLB",
+          "faculty": "Management and Law",
+          "minimum_aps": 27,
+          "competitive_flag": true,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA",
+          "faculty": "Humanities",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BSocial Work",
+          "faculty": "Humanities",
+          "minimum_aps": 25,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Media Studies",
+          "faculty": "Humanities",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BA Psychology",
+          "faculty": "Humanities",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Foundation Phase Teaching",
+          "faculty": "Education",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Intermediate Phase Teaching",
+          "faculty": "Education",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        },
+        {
+          "name": "BEd Senior Phase and FET Teaching",
+          "faculty": "Education",
+          "minimum_aps": 24,
+          "competitive_flag": false,
+          "mainstream_or_extended": "mainstream",
+          "subject_minimums": []
+        }
+      ],
+      "application_fee": "R200",
+      "aps_formula": "nsc_top6_excl_lo",
+      "approval_notes": "Approved based on provided official 2026 UL prospectus PDF.",
+      "approved_at": "2026-03-05T16:43:19Z"
+    }
+  ]
+}

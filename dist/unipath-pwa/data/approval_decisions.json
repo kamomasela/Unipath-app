@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-03-01T00:00:00Z",
+  "universities": {
+    "uct": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Sample approval for development seed data."
+    },
+    "uj": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Sample approval for development seed data."
+    },
+    "uwc": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved with manual correction: Bachelor of Social Work minimum set to 34 UWC points."
+    },
+    "up": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Temporarily approved using local sample source for MVP demo."
+    },
+    "wits": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved based on provided official 2026 Wits prospectus PDF."
+    },
+    "sun": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Temporarily approved using local sample source for MVP demo."
+    },
+    "ul": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved based on provided official 2026 UL prospectus PDF."
+    }
+  }
+}

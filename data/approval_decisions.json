@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-03-01T00:00:00Z",
+  "universities": {
+    "uct": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Sample approval for development seed data."
+    },
+    "uj": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Sample approval for development seed data."
+    },
+    "uwc": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved with manual correction: Bachelor of Social Work minimum set to 34 UWC points."
+    },
+    "up": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Temporarily approved using local sample source for MVP demo."
+    },
+    "wits": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved based on provided official 2026 Wits prospectus PDF."
+    },
+    "sun": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Temporarily approved using local sample source for MVP demo."
+    },
+    "ul": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved based on provided official 2026 UL prospectus PDF."
+    },
+    "univen": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "nwu": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "nmu": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: nmu_admission_score."
+    },
+    "rhodes": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "ufh": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "wsu": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: wsu_best6_excl_lo."
+    },
+    "ukzn": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "ufs": {
+      "approved": true,
+      "include_life_orientation": true,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: ufs_modified_nsc."
+    },
+    "ump": {
+      "approved": true,
+      "include_life_orientation": true,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: ump_lo_halved."
+    },
+    "unizulu": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "spu": {
+      "approved": true,
+      "include_life_orientation": true,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: spu_modified_with_bonuses."
+    },
+    "tut": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "dut": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: dut_subject_levels."
+    },
+    "cut": {
+      "approved": true,
+      "include_life_orientation": true,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: cut_lo_capped_1."
+    },
+    "vut": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo."
+    },
+    "mut": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: mut_subject_levels."
+    },
+    "smu": {
+      "approved": true,
+      "include_life_orientation": true,
+      "supports_grade12": true,
+      "notes": "Approved from CSV prospectus data. APS formula: smu_all_subjects_incl_lo."
+    },
+    "cput": {
+      "approved": true,
+      "include_life_orientation": false,
+      "supports_grade12": true,
+      "notes": "CPUT uses a percentage-based APS (not standard 7-point NSC). Three calculation methods apply. Per-math-type APS thresholds stored."
+    }
+  }
+}

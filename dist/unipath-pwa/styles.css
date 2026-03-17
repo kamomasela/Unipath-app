@@ -1,0 +1,185 @@
+:root {
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --primary: #0b4f6c;
+  --primary-soft: #e6f0f5;
+  --text: #0f172a;
+  --muted: #475569;
+  --danger: #b91c1c;
+  --ok: #166534;
+  --warn: #9a3412;
+  --border: #dbe3ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #e8f1f8 0%, var(--bg) 35%, var(--bg) 100%);
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.hero p {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+h2 {
+  margin: 0 0 0.8rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+select,
+input,
+button {
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+select,
+input {
+  border: 1px solid var(--border);
+  background: #fff;
+  padding: 0.7rem;
+}
+
+button {
+  border: 0;
+  padding: 0.75rem;
+  margin-top: 0.75rem;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: var(--primary-soft);
+  color: var(--primary);
+  border: 1px solid #c8dbe7;
+}
+
+button.danger {
+  background: #fff5f5;
+  color: var(--danger);
+  border: 1px solid #fecaca;
+}
+
+.subjects {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
+
+.subject-row {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 110px;
+}
+
+.subject-row .subject-search,
+.subject-row .subject-select {
+  grid-column: 1 / -1;
+}
+
+.subject-row .remove-subject {
+  grid-column: 1 / -1;
+  margin-top: 0;
+}
+
+.errors {
+  color: var(--danger);
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.university-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+
+.university-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  align-items: baseline;
+}
+
+.badge {
+  font-size: 0.85rem;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  background: #eef2ff;
+}
+
+.ok {
+  color: var(--ok);
+}
+
+.warn {
+  color: var(--warn);
+}
+
+.small {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+ul {
+  margin: 0.45rem 0 0;
+  padding-left: 1rem;
+}
+
+@media (min-width: 720px) {
+  .subject-row {
+    grid-template-columns: 1fr 1fr 120px 100px;
+    align-items: center;
+  }
+
+  .subject-row .subject-search,
+  .subject-row .subject-select {
+    grid-column: auto;
+  }
+
+  .subject-row .remove-subject {
+    grid-column: auto;
+  }
+}

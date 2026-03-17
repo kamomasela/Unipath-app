@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b4f6c" />
+    <title>UniPath APS Checker</title>
+    <link rel="manifest" href="./manifest.webmanifest?v=20260305184320" />
+    <link rel="stylesheet" href="./styles.css?v=20260305184320" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>UniPath</h1>
+        <p>APS and course eligibility checker for South African universities</p>
+        <p><a href="./review.html">Open Rules Review</a></p>
+      </header>
+
+      <section class="card">
+        <h2>Learner Input</h2>
+        <form id="aps-form">
+          <label class="label" for="grade-source">What results are you applying with?</label>
+          <select id="grade-source" name="gradeSource">
+            <option value="grade11_final">Grade 11 Final Results</option>
+            <option value="grade12_midyear">Grade 12 Mid-Year (Term 2) Results</option>
+          </select>
+          <p id="grade-source-notice" class="hint"></p>
+
+          <div id="subjects" class="subjects"></div>
+
+          <button type="button" id="add-subject-btn" class="secondary">Add Subject</button>
+          <button type="submit">Calculate APS</button>
+          <button type="button" id="reset-all-btn" class="danger">Reset All</button>
+        </form>
+        <p class="hint">Tip: Enter percentages from your report (0-100).</p>
+      </section>
+
+      <section class="card">
+        <h2>Results</h2>
+        <p class="hint">Mode: Qualify only (NOT_ELIGIBLE hidden)</p>
+        <div id="errors" class="errors" aria-live="polite"></div>
+        <div id="confidence-notice" class="hint"></div>
+        <div id="improvement-model" class="small"></div>
+        <div id="results"></div>
+        <div id="debug-results" class="small"></div>
+      </section>
+    </main>
+
+    <template id="subject-row-template">
+      <div class="subject-row">
+        <input class="subject-search" type="text" placeholder="Search subject" aria-label="Search subject" />
+        <select class="subject-select" aria-label="Subject"></select>
+        <input class="mark-input" type="number" min="0" max="100" step="1" placeholder="Mark %" />
+        <button type="button" class="remove-subject danger">Remove</button>
+      </div>
+    </template>
+
+    <script src="./app.js?v=20260305184320"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          registrations.forEach((registration) => registration.unregister());
+        });
+      }
+      if ("caches" in window) {
+        caches.keys().then((keys) => {
+          keys.forEach((key) => caches.delete(key));
+        });
+      }
+    </script>
+  </body>
+</html>

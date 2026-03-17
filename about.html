@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b4f6c" />
+    <title>About UniPath</title>
+    <link rel="stylesheet" href="./styles.css?v=__BUILD_VERSION__" />
+    <style>
+      .about-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: var(--primary);
+        font-weight: 600;
+        font-size: 0.95rem;
+        text-decoration: none;
+        margin-bottom: 0.25rem;
+      }
+      .about-back:hover {
+        text-decoration: underline;
+      }
+      .about-back svg {
+        flex-shrink: 0;
+      }
+
+      .about-hero {
+        text-align: center;
+        padding: 1.5rem 1rem 1rem;
+      }
+      .about-hero .app-icon {
+        width: 64px;
+        height: 64px;
+        background: var(--primary);
+        border-radius: 18px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.75rem;
+      }
+      .about-hero .app-icon svg {
+        width: 36px;
+        height: 36px;
+        fill: #fff;
+      }
+      .about-hero h1 {
+        margin: 0 0 0.4rem;
+        font-size: 2rem;
+        color: var(--primary);
+      }
+      .about-hero .tagline {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      .section-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--primary);
+        margin: 0 0 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .section-title .icon {
+        width: 28px;
+        height: 28px;
+        background: var(--primary-soft);
+        border-radius: 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        flex-shrink: 0;
+      }
+
+      .step-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 0.65rem;
+      }
+      .step-list li {
+        display: flex;
+        gap: 0.75rem;
+        align-items: flex-start;
+      }
+      .step-num {
+        width: 26px;
+        height: 26px;
+        background: var(--primary);
+        color: #fff;
+        border-radius: 50%;
+        font-size: 0.8rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-top: 1px;
+      }
+      .step-list li p {
+        margin: 0;
+        line-height: 1.5;
+        color: var(--text);
+      }
+      .step-list li p strong {
+        color: var(--primary);
+      }
+
+      .aps-intro {
+        margin: 0 0 1rem;
+        line-height: 1.6;
+        color: var(--text);
+      }
+
+      .aps-note {
+        margin: 0.75rem 0 0;
+        padding: 0.6rem 0.8rem;
+        background: var(--primary-soft);
+        border-left: 3px solid var(--primary);
+        border-radius: 0 8px 8px 0;
+        font-size: 0.88rem;
+        color: var(--primary);
+        line-height: 1.5;
+      }
+
+      .aps-table-wrap {
+        overflow-x: auto;
+        margin-top: 0.85rem;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+      }
+      .aps-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.92rem;
+      }
+      .aps-table thead tr {
+        background: var(--primary);
+        color: #fff;
+      }
+      .aps-table thead th {
+        padding: 0.6rem 0.8rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: 0.85rem;
+        letter-spacing: 0.02em;
+      }
+      .aps-table thead th:first-child {
+        text-align: left;
+      }
+      .aps-table tbody tr:nth-child(even) {
+        background: #f8fafc;
+      }
+      .aps-table tbody tr:hover {
+        background: var(--primary-soft);
+      }
+      .aps-table tbody td {
+        padding: 0.55rem 0.8rem;
+        text-align: center;
+        color: var(--text);
+        border-bottom: 1px solid var(--border);
+      }
+      .aps-table tbody td:first-child {
+        text-align: left;
+        font-weight: 500;
+      }
+      .aps-table tbody tr:last-child td {
+        border-bottom: none;
+      }
+      .level-badge {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        border-radius: 50%;
+        font-weight: 700;
+        font-size: 0.85rem;
+        background: var(--primary-soft);
+        color: var(--primary);
+      }
+
+      .footer-note {
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.85rem;
+        padding-bottom: 0.5rem;
+      }
+
+      .cta-btn {
+        display: block;
+        text-align: center;
+        background: var(--primary);
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 0.8rem 1rem;
+        margin-top: 0.25rem;
+      }
+      .cta-btn:hover {
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+
+      <!-- Back / Skip link -->
+      <div>
+        <a href="./index.html" class="about-back" id="back-link">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span id="back-label">Back to App</span>
+        </a>
+      </div>
+
+      <!-- Hero -->
+      <div class="about-hero card">
+        <div class="app-icon">
+          <!-- Graduation cap icon -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
+          </svg>
+        </div>
+        <h1>UniPath</h1>
+        <p class="tagline">Your personal guide to South African university admissions — find programmes you qualify for in seconds.</p>
+      </div>
+
+      <!-- Section 1: What is UniPath -->
+      <section class="card">
+        <h2 class="section-title">
+          <span class="icon">👋</span>
+          Welcome to UniPath
+        </h2>
+        <p style="margin:0;line-height:1.6;color:var(--text);">
+          UniPath is a free tool built for <strong>Grade 11 and Grade 12 South African students</strong>.
+          It helps you discover which university programmes you are eligible to apply for — based on your actual marks — without the guesswork.
+        </p>
+        <p style="margin:0.75rem 0 0;line-height:1.6;color:var(--text);">
+          No sign-up needed. No complicated forms. Just enter your subjects and marks, and UniPath does the rest.
+        </p>
+      </section>
+
+      <!-- Section 2: How it works -->
+      <section class="card">
+        <h2 class="section-title">
+          <span class="icon">⚙️</span>
+          How It Works
+        </h2>
+        <ol class="step-list">
+          <li>
+            <span class="step-num">1</span>
+            <p><strong>Enter your subjects and marks.</strong> Add each subject you wrote and type in your percentage (e.g. Mathematics: 72%).</p>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <p><strong>UniPath calculates your APS automatically.</strong> Your Admission Point Score is worked out instantly based on your marks.</p>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <p><strong>See every programme you qualify for.</strong> UniPath checks your APS and subject marks against the requirements of programmes across multiple South African universities.</p>
+          </li>
+          <li>
+            <span class="step-num">4</span>
+            <p><strong>Check subject requirements.</strong> Each result shows which specific subjects a programme requires and at what level — so you know exactly where you stand.</p>
+          </li>
+          <li>
+            <span class="step-num">5</span>
+            <p><strong>Use it with Grade 11 or Grade 12 results.</strong> Select which set of results you are using at the top of the main screen.</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Section 3: What is APS -->
+      <section class="card">
+        <h2 class="section-title">
+          <span class="icon">📊</span>
+          What is APS?
+        </h2>
+        <p class="aps-intro">
+          <strong>APS</strong> stands for <strong>Admission Point Score</strong>. It is a number that South African universities use to measure whether a student meets the entry requirements for a programme.
+        </p>
+        <p class="aps-intro" style="margin-top:0;">
+          Your APS is calculated by converting each of your subject percentages into a level (1–7), then adding those levels together.
+        </p>
+
+        <div class="aps-table-wrap">
+          <table class="aps-table">
+            <thead>
+              <tr>
+                <th>Percentage</th>
+                <th>Level</th>
+                <th>APS Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>80% – 100%</td>
+                <td><span class="level-badge">7</span></td>
+                <td><strong>7</strong></td>
+              </tr>
+              <tr>
+                <td>70% – 79%</td>
+                <td><span class="level-badge">6</span></td>
+                <td><strong>6</strong></td>
+              </tr>
+              <tr>
+                <td>60% – 69%</td>
+                <td><span class="level-badge">5</span></td>
+                <td><strong>5</strong></td>
+              </tr>
+              <tr>
+                <td>50% – 59%</td>
+                <td><span class="level-badge">4</span></td>
+                <td><strong>4</strong></td>
+              </tr>
+              <tr>
+                <td>40% – 49%</td>
+                <td><span class="level-badge">3</span></td>
+                <td><strong>3</strong></td>
+              </tr>
+              <tr>
+                <td>30% – 39%</td>
+                <td><span class="level-badge">2</span></td>
+                <td><strong>2</strong></td>
+              </tr>
+              <tr>
+                <td>0% – 29%</td>
+                <td><span class="level-badge">1</span></td>
+                <td><strong>1</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="aps-note">
+          <strong>Life Orientation:</strong> Most universities exclude Life Orientation from the APS calculation. Some count it at half value. UniPath handles this automatically per university.
+        </div>
+
+        <p style="margin:0.85rem 0 0;line-height:1.6;color:var(--muted);font-size:0.9rem;">
+          <strong>Example:</strong> A student with English 68% (Level 5), Mathematics 74% (Level 6), Life Sciences 55% (Level 4), Physical Sciences 62% (Level 5), Accounting 71% (Level 6), and History 48% (Level 3) — excluding Life Orientation — would have an APS of <strong>5 + 6 + 4 + 5 + 6 + 3 = 29</strong>.
+        </p>
+      </section>
+
+      <!-- CTA back to app -->
+      <div>
+        <a href="./index.html" class="cta-btn">Start Checking My APS</a>
+      </div>
+
+      <p class="footer-note">UniPath · Data sourced from 2026 undergraduate prospectuses</p>
+
+    </main>
+    <script>
+      // Show "Skip" when arriving fresh, "← Back to App" when navigating from the calculator
+      const isFirstVisit = !sessionStorage.getItem("unipath_came_from_app");
+      if (isFirstVisit) {
+        document.getElementById("back-label").textContent = "Skip";
+        const svg = document.querySelector("#back-link svg");
+        if (svg) svg.remove();
+      }
+
+      // Set session flag when navigating to the app
+      document.querySelectorAll("a[href='./index.html']").forEach((a) => {
+        a.addEventListener("click", () => sessionStorage.setItem("unipath_came_from_app", "1"));
+      });
+    </script>
+  </body>
+</html>

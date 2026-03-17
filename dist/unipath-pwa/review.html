@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UniPath Rules Review</title>
+    <link rel="stylesheet" href="./styles.css?v=20260305184320" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>Rules Review</h1>
+        <p>Review pending extracted rules before promotion to active.</p>
+        <p><a href="./index.html">Back to Learner App</a></p>
+      </header>
+
+      <section class="card">
+        <h2>Review Controls</h2>
+        <button id="refresh-btn">Reload Pending Rules</button>
+        <button id="download-decisions-btn" class="secondary">Download approval_decisions.json</button>
+        <label class="label" for="import-decisions-file">Import decisions file</label>
+        <input id="import-decisions-file" type="file" accept=".json,application/json" />
+        <p class="small">
+          This page helps edit decisions locally. Save output and replace
+          <code>data/approval_decisions.json</code>, then run
+          <code>python3 tools/promote_rules.py</code>.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Pending Universities</h2>
+        <div id="review-errors" class="errors"></div>
+        <div id="review-list"></div>
+      </section>
+    </main>
+
+    <script src="./review.js?v=20260305184320"></script>
+  </body>
+  </html>

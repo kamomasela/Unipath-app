@@ -1,0 +1,40 @@
+row_id;Programme Name;Qualification Type;APS Requirement;Required Subjects;Faculty;Campus;Page Number
+1;Bachelor of Social Work;Bachelor;Minimum of 34 UWC points;"English (home lang) Code 4 OR English (first additional language) Code 5; Another lang (home or first additional) Code 4; Maths Code 3 OR Maths Literacy Code 4";Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+2;Bachelor of Community Development;Bachelor;Minimum of 30 UWC points;Maths Code 3 OR Maths Literacy Code 4;Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+3;BA Sport, Recreation and Exercise Science;BA;Minimum of 30 UWC points;Maths Code 3 OR Maths Literacy Code 4;Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+4;BSc Dietetics and Nutrition;BSc;Minimum of 33 UWC points;"Maths Code 4 OR Maths Literacy Code 6; Life Sciences Code 4";Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+5;BSc Sport and Exercise Science;BSc;Minimum of 33 UWC points;"Maths Code 4 OR Maths Literacy Code 6; Life Sciences Code 4";Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+6;BSc Occupational Therapy;BSc;Minimum of 33 UWC points;"Maths Code 3 OR Maths Literacy Code 5; Life Sciences Code 4";Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+7;BSc Physiotherapy;BSc;Minimum of 39 UWC points;"Maths Code 4 OR Maths Literacy Code 6; Life Sciences Code 4 AND Physical Sciences Code 4";Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+8;B Nursing and Midwifery;Bachelor;Minimum of 30 UWC points;"Maths Code 4 OR Maths Literacy Code 6; Life Sciences Code 4";Faculty of Community and Health Sciences;"Main Campus; Bellville CBD Campus";2
+9;BAdmin;Bachelor;Minimum of 30 UWC points;Maths Code 3 OR Maths Literacy Code 5;Faculty of Economic and Management Sciences;;2
+10;BCom;Bachelor;Minimum of 30 UWC points;Maths Code 4;Faculty of Economic and Management Sciences;;2
+11;BCom Financial Accounting;Bachelor;Minimum of 30 UWC points;Maths Code 4;Faculty of Economic and Management Sciences;;2
+12;BCom Information Systems;Bachelor;Minimum of 30 UWC points;Maths Code 4;Faculty of Economic and Management Sciences;;2
+13;BCom Accounting (3yrs);Bachelor;Minimum of 30 UWC points;Maths Code 4 AND Accounting Code 5 (not required if an applicant has Mathematics Code 5);Faculty of Economic and Management Sciences;;2
+14;BCom 4 years;Bachelor (4 Year Stream);Minimum of 30 UWC points;"English Code 3 AND Another language Code 3 (home OR first additional language); Maths Code 2 OR Maths Literacy Code 6";Faculty of Economic and Management Sciences;;2
+15;BCom Accounting (4yrs);Bachelor (4 Year Stream);Minimum of 30 UWC points;"English Code 3 AND Another language Code 3 (home OR first additional language); Maths Code 3 AND Accounting Code 4 OR Maths Code 4";Faculty of Economic and Management Sciences;;2
+16;Bachelor of Arts (BA);Bachelor;Minimum of 35 UWC points;"English Code 4 (home OR first additional language); Code 4 in another subject from NSC subject list";Faculty of Arts and Humanities;;2
+17;Bachelor of Theology (BTh);Bachelor;Minimum of 35 UWC points;"English Code 4 (home OR first additional language); Code 4 in another subject from NSC subject list";Faculty of Arts and Humanities;;2
+18;Bachelor of Library and Information Studies (BLIS);Bachelor;Minimum of 35 UWC points;Maths Code 3 OR Maths Literacy Code 4 is required for the BLIS ;Faculty of Arts and Humanities;;2
+19;BSc Environment and Water Science;BSc;Minimum of 33 UWC points;"Maths Code 4; Physical Sciences OR Life Sciences Code 4";Faculty of Natural Sciences;;2
+20;BSc Biotechnology;BSc;Minimum of 33 UWC points;"Maths Code 4; Physical Sciences OR Life Sciences Code 4";Faculty of Natural Sciences;;2
+21;BSc Biodiversity and Conservation Biology;BSc;Minimum of 33 UWC points;"Maths Code 4; Physical Sciences OR Life Sciences Code 4";Faculty of Natural Sciences;;2
+22;BSc Medical Bioscience;BSc;Minimum of 33 UWC points;"Maths Code 4; Life Sciences Code 4";Faculty of Natural Sciences;;2
+23;BSc Chemical Sciences;BSc;Minimum of 33 UWC points;"Maths Code 4; Physical Sciences Code 4";Faculty of Natural Sciences;;2
+24;BSc Applied Geology;BSc;Minimum of 33 UWC points;"Maths Code 4; Physical Sciences Code 4";Faculty of Natural Sciences;;2
+25;BSc Physical Science;BSc;Minimum of 33 UWC points;"Maths Code 5; Physical Sciences Code 4";Faculty of Natural Sciences;;2
+26;BSc Mathematics & Statistical Sciences;BSc;Minimum of 33 UWC points;Maths Code 5 AND Physical Sciences OR Life Sciences OR Information Technology Code 4;Faculty of Natural Sciences;;2
+27;BSc Computer Science;BSc;Minimum of 33 UWC points;Maths Code 5 AND Physical Sciences OR Life Sciences OR Information Technology Code 4;Faculty of Natural Sciences;;2
+28;Bachelor of Pharmacy;Bachelor;Minimum of 38 UWC points;"Maths Code 4; Physical Sciences AND Life Sciences Code 4";Faculty of Natural Sciences;;2
+29;Bachelor of Dental Surgery (BDS);Bachelor;Minimum of 40 UWC points;"Maths Code 4; Physical Sciences AND Life Sciences Code 4";Faculty of Dentistry;;2
+30;Bachelor of Oral Health (BOH);Bachelor;Minimum of 33 UWC points;"Maths Code 3 OR Maths Literacy Code 4; Life Sciences Code 4";Faculty of Dentistry;;2
+31;Bachelor of Laws (LLB) (4yr Prog);Bachelor;Minimum of 37 UWC points;Maths Code 3 OR Maths Literacy Code 5;Faculty of Law;;2
+32;B Com Law;Bachelor;Minimum of 30 UWC points;Maths Code 4;Faculty of Law;;2
+33;Bachelor of Arts in Law - BA (Law) (3yr Prog);BA;Minimum of 37 UWC points;Maths Code 3 OR Maths Literacy Code 5;Faculty of Law;;2
+34;BEd Accounting (FET), Economic and Management Sciences (SP) and Mathematics (SP);BEd;Minimum of 33 UWC points;"English Code 4 (home OR first additional language); Another language Code 3 (home OR first additional language); Maths Code 4 OR Maths Literacy Code 6; Accounting Code 4 OR Business Studies Code 4 OR Economics Code 4";Faculty of Education;;2
+35;BEd Mathematics (SP), Mathematical Literacy (SP & FET) and Natural Science (SP);BEd;Minimum of 33 UWC points;"English Code 4 (home OR first additional language); Another language Code 3 (home OR first additional language); Maths Code 4 OR Maths Literacy Code 6; Life Sciences Code 4 OR Physical Sciences Code 4";Faculty of Education;;2
+36;BEd Languages (SP and FET) and Life Orientation (SP);BEd;Minimum of 33 UWC points;"English (home language) Code 4 OR English (first additional language) Code 5 AND Another language (home or first additional language) Code 4; Maths Code 3 OR Maths Literacy Code 5; Life Orientation Code 4";Faculty of Education;;2
+37;BEd Languages (SP and FET) and Mathematics (SP);BEd;Minimum of 33 UWC points;"English (home language) Code 4 OR English (first additional language) Code 5 AND Another language (home or first additional language) Code 4; Maths Code 4 OR Maths Literacy Code 6";Faculty of Education;;2
+38;BEd Languages (SP and FET) and Social Sciences (SP);BEd;Minimum of 33 UWC points;"English (home language) Code 4 OR English (first additional language) Code 5 AND Another language (home or first additional language) Code 4; Maths Code 3 OR Maths Literacy Code 5; History Code 4 OR Geography Code 4";Faculty of Education;;2
+39;BEd Foundation Phase Teaching;BEd;Minimum of 33 UWC points;"English Code 4 (home OR first additional language); Another language Code 4 (home OR first additional language) AND Maths Code 3 OR Maths Literacy Code 5";Faculty of Education;;2
