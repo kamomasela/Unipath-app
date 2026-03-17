@@ -16,6 +16,7 @@ cp "${ROOT_DIR}/app.js" "${WWW_DIR}/app.js"
 cp "${ROOT_DIR}/review.js" "${WWW_DIR}/review.js"
 cp "${ROOT_DIR}/sw.js" "${WWW_DIR}/sw.js"
 cp "${ROOT_DIR}/manifest.webmanifest" "${WWW_DIR}/manifest.webmanifest"
+cp "${ROOT_DIR}/IMG_1597.JPG" "${WWW_DIR}/IMG_1597.JPG"
 
 cp "${ROOT_DIR}/data/approved_rules.json" "${WWW_DIR}/data/approved_rules.json"
 cp "${ROOT_DIR}/data/approval_decisions.json" "${WWW_DIR}/data/approval_decisions.json"
