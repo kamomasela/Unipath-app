@@ -673,41 +673,56 @@ function renderResults(visibleUniversities) {
   }
 
   visibleUniversities.forEach((result) => {
-    const card = document.createElement("article");
-    card.className = "university-card";
     const displayProgrammes = (result.programmes || result.eligibleProgrammes || []).filter((p) =>
       p.classification === "QUALIFY"
     );
-    const qualifyingList = `
-      <p><strong>Qualifying Programmes</strong></p>
-      <ul>${displayProgrammes
-        .map((p) => {
-          const reqLines = formatSubjectRequirements(p.subjectMinimums);
-          const reqHtml = reqLines
-            ? `<ul class="subject-req-list">${reqLines.map((l) => `<li>${l}</li>`).join("")}</ul>`
-            : `<span class="muted">None required</span>`;
-          return `<li>
-            <strong>${p.name}</strong> <span class="stream-badge">${p.stream}</span><br/>
-            <span class="small">${p.reason}</span>
-            <div class="subject-reqs">
-              <span class="subject-reqs-label">Subject Requirements:</span>
-              ${reqHtml}
-            </div>
-          </li>`;
-        })
-        .join("")}</ul>
+    const count = displayProgrammes.length;
+
+    const programmesHtml = displayProgrammes
+      .map((p) => {
+        const reqLines = formatSubjectRequirements(p.subjectMinimums);
+        const reqHtml = reqLines
+          ? `<ul class="subject-req-list">${reqLines.map((l) => `<li>${l}</li>`).join("")}</ul>`
+          : `<span class="muted">None required</span>`;
+        return `<li class="accordion-programme">
+          <div class="accordion-programme-header">
+            <strong>${p.name}</strong>
+            <span class="stream-badge">${p.stream}</span>
+          </div>
+          <span class="small">${p.reason}</span>
+          <div class="subject-reqs">
+            <span class="subject-reqs-label">Subject Requirements:</span>
+            ${reqHtml}
+          </div>
+        </li>`;
+      })
+      .join("");
+
+    const card = document.createElement("article");
+    card.className = "university-card accordion-card";
+    card.innerHTML = `
+      <button type="button" class="accordion-toggle" aria-expanded="false">
+        <span class="accordion-uni-name">${result.universityName}</span>
+        <span class="accordion-meta">
+          <span class="badge">${count} programme${count !== 1 ? "s" : ""}</span>
+          <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div class="accordion-body">
+        <ul class="accordion-programme-list">${programmesHtml}</ul>
+      </div>
     `;
 
-    card.innerHTML = `
-      <div class="university-header">
-        <strong>${result.universityName}</strong>
-        <span class="badge">APS: ${result.aps}</span>
-      </div>
-      <p class="small">Application fee: ${result.applicationFee}</p>
-      <p class="small">APS formula: ${result.apsFormula}</p>
-      <p class="small">Rule version: ${result.ruleVersion}</p>
-      ${qualifyingList}
-    `;
+    const toggle = card.querySelector(".accordion-toggle");
+    const body = card.querySelector(".accordion-body");
+    toggle.addEventListener("click", () => {
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      body.style.maxHeight = isOpen ? "0" : body.scrollHeight + "px";
+    });
+
     dom.results.appendChild(card);
   });
 }
