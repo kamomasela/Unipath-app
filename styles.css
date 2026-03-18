@@ -1,3 +1,9 @@
+html {
+  /* Prevent automatic text size inflation on orientation change (Android/iOS) */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 :root {
   --bg: #f4f7fb;
   --panel: #ffffff;
@@ -17,15 +23,33 @@
 
 body {
   margin: 0;
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  /* Roboto for Android/Huawei, -apple-system/BlinkMacSystemFont for iOS/macOS,
+     Segoe UI for Windows — falls back to system sans-serif everywhere */
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
   color: var(--text);
   background: linear-gradient(180deg, #e8f1f8 0%, var(--bg) 35%, var(--bg) 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Prevent any element from causing horizontal scroll */
+  overflow-x: hidden;
+}
+
+/* Remove the gray tap flash on Android Chrome; use :active for feedback instead */
+a, button, select, input, label {
+  -webkit-tap-highlight-color: transparent;
 }
 
 .container {
   max-width: 760px;
   margin: 0 auto;
+  /* Use env() safe-area insets so content isn't hidden behind notches/home bars
+     on iPhone X+ and notched Android/Huawei devices */
   padding: 1rem;
+  padding-top: max(1rem, env(safe-area-inset-top));
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  padding-left: max(1rem, env(safe-area-inset-left));
+  padding-right: max(1rem, env(safe-area-inset-right));
   display: grid;
   gap: 1rem;
 }
@@ -46,8 +70,9 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  /* 44px meets both iOS HIG and Android 48dp touch target guidelines */
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   color: var(--primary);
   background: var(--primary-soft);
@@ -111,8 +136,13 @@ select,
 input,
 button {
   width: 100%;
+  /* Force 1rem (16px) so iOS Safari does NOT zoom in on focus */
   font-size: 1rem;
+  font-family: inherit;
   border-radius: 10px;
+  /* Remove browser-native styling (important on Android/Samsung Internet) */
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 select,
@@ -120,16 +150,35 @@ input {
   border: 1px solid var(--border);
   background: #fff;
   padding: 0.7rem;
+  color: var(--text);
+  /* Let text truncate instead of overflowing */
+  text-overflow: ellipsis;
+}
+
+/* Custom dropdown arrow — replaces the OS-native one stripped by appearance:none */
+select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%230b4f6c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem;
 }
 
 button {
   border: 0;
   padding: 0.75rem;
+  /* Ensure every button meets the 44px minimum touch target (iOS HIG + Android) */
+  min-height: 44px;
   margin-top: 0.75rem;
   background: var(--primary);
   color: #fff;
   font-weight: 700;
   cursor: pointer;
+  line-height: 1.25;
+}
+
+button:active {
+  opacity: 0.82;
 }
 
 button.secondary {
@@ -157,7 +206,8 @@ button.danger {
 }
 
 .subject-row .subject-search,
-.subject-row .subject-select {
+.subject-row .subject-select,
+.subject-row .mark-input {
   grid-column: 1 / -1;
 }
 
@@ -193,6 +243,9 @@ button.danger {
   background: none;
   border: none;
   padding: 0.9rem;
+  /* Reset button base overrides that don't apply here */
+  margin-top: 0;
+  min-height: 52px;
   cursor: pointer;
   text-align: left;
   font-family: inherit;
@@ -205,6 +258,8 @@ button.danger {
   font-weight: 700;
   color: var(--primary);
   font-size: 1rem;
+  word-break: break-word;
+  min-width: 0; /* allow flex child to shrink below content size */
 }
 .accordion-meta {
   display: flex;
@@ -242,6 +297,7 @@ button.danger {
   flex-wrap: wrap;
   gap: 0.4rem;
   margin-bottom: 0.2rem;
+  word-break: break-word;
 }
 
 .university-header {
@@ -323,11 +379,37 @@ ul {
   }
 
   .subject-row .subject-search,
-  .subject-row .subject-select {
+  .subject-row .subject-select,
+  .subject-row .mark-input {
     grid-column: auto;
   }
 
   .subject-row .remove-subject {
     grid-column: auto;
+  }
+}
+
+/* Landscape phones — reduce top/bottom padding so content is easier to scroll */
+@media (max-height: 500px) and (orientation: landscape) {
+  .container {
+    gap: 0.65rem;
+  }
+  .card {
+    padding: 0.75rem;
+  }
+}
+
+/* Very small screens (< 360px — some older Huawei/Android models) */
+@media (max-width: 359px) {
+  .accordion-toggle {
+    font-size: 0.92rem;
+    padding: 0.75rem;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  .badge {
+    font-size: 0.78rem;
+    padding: 0.15rem 0.4rem;
   }
 }
