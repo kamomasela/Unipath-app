@@ -150,6 +150,7 @@ const STORAGE_KEYS = {
 
 let universityRules = [];
 let lastPdfData = null; // stores latest evaluation for PDF export
+let _resultsVisible = false; // true while results are displayed (used for back-button handling)
 const ENFORCE_SUBJECT_MINIMUMS = true;
 
 const dom = {
@@ -672,6 +673,15 @@ function renderResults(visibleUniversities) {
     return;
   }
 
+  // Push a history entry so the back button can be intercepted.
+  // Use replaceState on subsequent calculations to avoid stacking entries.
+  if (!_resultsVisible) {
+    history.pushState({ view: "results" }, "");
+    _resultsVisible = true;
+  } else {
+    history.replaceState({ view: "results" }, "");
+  }
+
   visibleUniversities.forEach((result) => {
     const displayProgrammes = (result.programmes || result.eligibleProgrammes || []).filter((p) =>
       p.classification === "QUALIFY"
@@ -1078,6 +1088,7 @@ function resetAll() {
   dom.gradeSource.value = "grade11_final";
   dom.subjects.innerHTML = "";
   lastPdfData = null;
+  _resultsVisible = false;
   dom.savePdfBtn.style.display = "none";
   addSubjectRow();
   addSubjectRow();
@@ -1090,6 +1101,29 @@ async function init() {
   dom.resetAllBtn.addEventListener("click", resetAll);
   dom.savePdfBtn.addEventListener("click", generatePDF);
   dom.gradeSource.addEventListener("change", updateGradeSourceNotice);
+
+  // Back-button / swipe-back handler.
+  // When results are showing and the user presses back (Android hardware button,
+  // iOS swipe, Huawei back key, or any browser back navigation):
+  //   • If scrolled down  → scroll smoothly to top and stay on this page
+  //   • If already at top → let the browser navigate to the previous history
+  //     entry, which is this same index.html page at its base state (the
+  //     marks-entry form) — NOT the welcome/about screen
+  window.addEventListener("popstate", () => {
+    if (!_resultsVisible) return; // results not showing, let browser handle normally
+
+    if (window.scrollY > 80) {
+      // User is scrolled down into the results — scroll to top, stay on page
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      // Re-push the results state so a second back press is still interceptable
+      history.pushState({ view: "results" }, "");
+    } else {
+      // Already at the top (form visible) — this popstate consumed the results
+      // history entry; the browser is now on the base index.html entry (form state).
+      // That IS the marks-entry page, so nothing more to do.
+      _resultsVisible = false;
+    }
+  });
 
   clearLegacyStorage();
   addSubjectRow();
