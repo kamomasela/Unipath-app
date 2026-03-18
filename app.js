@@ -174,7 +174,11 @@ function isEnglishSubject(subject) {
 }
 
 function isMathChoice(subject) {
-  return subject === "Mathematics" || subject === "Mathematical Literacy";
+  return (
+    subject === "Mathematics" ||
+    subject === "Mathematical Literacy" ||
+    subject === "Technical Mathematics"
+  );
 }
 
 function isPredictiveGradeSource(gradeSource) {
@@ -357,7 +361,7 @@ function collectInput() {
     errors.push("English (HL or FAL) is compulsory.");
   }
   if (!subjectMarks.some((s) => isMathChoice(s.subject))) {
-    errors.push("Select Mathematics or Mathematical Literacy.");
+    errors.push("Select Mathematics, Mathematical Literacy, or Technical Mathematics.");
   }
 
   return { gradeSource: dom.gradeSource.value, subjectMarks, errors };
