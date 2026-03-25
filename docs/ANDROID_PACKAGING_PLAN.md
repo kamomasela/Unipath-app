@@ -1,7 +1,7 @@
 # Android Packaging Plan (After Node Installation)
 
 ## Packaging approach
-Use Capacitor to wrap the existing UniPath PWA into a native Android shell for Play Store distribution.
+Use Capacitor to wrap the existing APSWise PWA into a native Android shell for Play Store distribution.
 
 ## Current status
 Capacitor Android scaffolding has been initialized in this workspace.

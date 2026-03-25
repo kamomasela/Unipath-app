@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-UniPath Phase 1 ingestion pipeline (lightweight).
+APSWise Phase 1 ingestion pipeline (lightweight).
 
 What this script does:
 1. Reads data/source_registry.json
@@ -314,7 +314,7 @@ def build_university_rule(university: dict, min_confidence: float) -> dict:
 
 
 def main() -> None:
-  parser = argparse.ArgumentParser(description="Generate UniPath rules from official sources.")
+  parser = argparse.ArgumentParser(description="Generate APSWise rules from official sources.")
   parser.add_argument("--min-confidence", type=float, default=0.7)
   parser.add_argument("--registry", type=Path, default=REGISTRY_FILE)
   parser.add_argument("--out", type=Path, default=PENDING_RULES_FILE)

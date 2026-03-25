@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-UniPath prospectus extractor — Claude AI edition.
+APSWise prospectus extractor — Claude AI edition.
 
 Uploads a prospectus PDF to the Anthropic Files API, then asks Claude to
 extract every programme with its minimum APS and subject requirements.
@@ -187,7 +187,7 @@ def main() -> int:
 
     client = anthropic.Anthropic(api_key=api_key)
 
-    print(f"\nUniPath Claude Extractor")
+    print(f"\nAPSWise Claude Extractor")
     print(f"University: {args.university}")
     print(f"PDF: {pdf_path.name}")
     print()

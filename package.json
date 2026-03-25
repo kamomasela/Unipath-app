@@ -1,7 +1,7 @@
 {
   "name": "unipath-app",
   "version": "1.0.0",
-  "description": "This is a mobile-first MVP prototype for UniPath.",
+  "description": "This is a mobile-first MVP prototype for APSWise.",
   "main": "app.js",
   "directories": {
     "doc": "docs"

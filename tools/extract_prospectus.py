@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-UniPath prospectus extractor — pdfplumber edition.
+APSWise prospectus extractor — pdfplumber edition.
 
 Uses pdfplumber instead of pdftotext so that multi-column table layouts
 are correctly reassembled before we search for programme/APS data.

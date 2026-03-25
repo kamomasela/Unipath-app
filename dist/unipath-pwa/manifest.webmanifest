@@ -1,6 +1,6 @@
 {
-  "name": "UniPath APS Checker",
-  "short_name": "UniPath",
+  "name": "APSWise APS Checker",
+  "short_name": "APSWise",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f4f7fb",

@@ -1,6 +1,6 @@
-# No-Cost Distribution Guide (UniPath)
+# No-Cost Distribution Guide (APSWise)
 
-This guide helps you distribute UniPath without Play Store or App Store fees.
+This guide helps you distribute APSWise without Play Store or App Store fees.
 
 ## Path A: PWA (Recommended first)
 Users open a link and install to home screen.

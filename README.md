@@ -1,6 +1,6 @@
-# UniPath App (Phase 1 MVP)
+# APSWise App (Phase 1 MVP)
 
-This is a mobile-first MVP prototype for UniPath.
+This is a mobile-first MVP prototype for APSWise.
 
 ## What works now
 - Subject + mark input

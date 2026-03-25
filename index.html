@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0b4f6c" />
-    <title>UniPath APS Checker</title>
+    <title>APSWise APS Checker</title>
     <link rel="manifest" href="./manifest.webmanifest?v=__BUILD_VERSION__" />
     <link rel="stylesheet" href="./styles.css?v=__BUILD_VERSION__" />
   </head>
@@ -12,8 +12,8 @@
     <main class="container">
       <header class="hero">
         <div class="hero-top">
-          <h1>UniPath</h1>
-          <a href="./about.html?from=app" class="info-btn" aria-label="About UniPath">
+          <h1>APSWise</h1>
+          <a href="./about.html?from=app" class="info-btn" aria-label="About APSWise">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
               <path d="M12 11v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -25,43 +25,85 @@
         <p><a href="./review.html">Open Rules Review</a></p>
       </header>
 
-      <section class="card">
-        <h2>Learner Input</h2>
-        <form id="aps-form">
-          <label class="label" for="grade-source">What results are you applying with?</label>
-          <select id="grade-source" name="gradeSource">
-            <option value="grade11_final">Grade 11 Final Results</option>
-            <option value="grade12_midyear">Grade 12 Mid-Year (Term 2) Results</option>
-          </select>
-          <p id="grade-source-notice" class="hint"></p>
+      <!-- Screen 2: Enter Marks -->
+      <div id="screen-2" class="screen active">
+        <section class="card">
+          <h2>Learner Input</h2>
+          <form id="aps-form">
+            <label class="label" for="grade-source">What results are you applying with?</label>
+            <select id="grade-source" name="gradeSource">
+              <option value="grade11_final">Grade 11 Final Results</option>
+              <option value="grade12_midyear">Grade 12 Mid-Year (Term 2) Results</option>
+            </select>
+            <p id="grade-source-notice" class="hint"></p>
 
-          <div id="subjects" class="subjects"></div>
+            <div id="subjects" class="subjects"></div>
 
-          <button type="button" id="add-subject-btn" class="secondary">Add Subject</button>
-          <button type="submit">Calculate APS</button>
-          <button type="button" id="reset-all-btn" class="danger">Reset All</button>
-        </form>
-        <p class="hint">Tip: Enter percentages from your report (0-100).</p>
-      </section>
+            <button type="button" id="add-subject-btn" class="secondary">Add Subject</button>
+            <button type="submit">Calculate APS</button>
+            <button type="button" id="reset-all-btn" class="danger">Reset All</button>
+          </form>
+          <p class="hint">Tip: Enter percentages from your report (0-100).</p>
+          <div id="errors" class="errors" aria-live="polite"></div>
+        </section>
+      </div>
 
-      <section class="card">
-        <div class="results-header">
-          <h2>Results</h2>
-          <button type="button" id="save-pdf-btn" class="secondary pdf-btn" style="display:none" aria-label="Save results as PDF">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M12 16l-4-4h2.5V4h3v8H16l-4 4z" fill="currentColor"/>
-              <path d="M20 18H4v2h16v-2z" fill="currentColor"/>
-            </svg>
-            Save as PDF
-          </button>
-        </div>
-        <p class="hint">Mode: Qualify only (NOT_ELIGIBLE hidden)</p>
-        <div id="errors" class="errors" aria-live="polite"></div>
-        <div id="confidence-notice" class="hint"></div>
-        <div id="improvement-model" class="small"></div>
-        <div id="results"></div>
-        <div id="debug-results" class="small"></div>
-      </section>
+      <!-- Screen 3: APS Screen (new) -->
+      <div id="screen-3" class="screen">
+        <section class="card">
+          <h2>Your APS Score Per Qualifying University</h2>
+          <button type="button" id="view-programs-btn">View Programs</button>
+          <div id="aps-list"></div>
+        </section>
+      </div>
+
+      <!-- Screen 4: Results Screen -->
+      <div id="screen-4" class="screen">
+        <section class="card">
+          <div class="results-header">
+            <h2>Results</h2>
+            <button type="button" id="save-pdf-btn" class="secondary pdf-btn" style="display:none" aria-label="Save results as PDF">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 16l-4-4h2.5V4h3v8H16l-4 4z" fill="currentColor"/>
+                <path d="M20 18H4v2h16v-2z" fill="currentColor"/>
+              </svg>
+              Save as PDF
+            </button>
+          </div>
+          <div class="action-btn-row">
+            <button type="button" id="what-if-btn" class="secondary">What If I Improve?</button>
+            <button type="button" id="check-chances-btn" class="secondary">Check My Chances</button>
+          </div>
+          <p class="hint">Mode: Qualify only (NOT_ELIGIBLE hidden)</p>
+          <div id="confidence-notice" class="hint"></div>
+          <div id="results"></div>
+          <div id="private-results"></div>
+        </section>
+      </div>
+
+      <!-- Screen 5: What If I Improve? -->
+      <div id="screen-5" class="screen">
+        <section class="card">
+          <h2>What If I Improve?</h2>
+          <p class="hint">Shows which subjects to improve and by how much to unlock more programmes.</p>
+          <hr class="screen-divider" />
+          <div id="improvement-detail"></div>
+        </section>
+      </div>
+
+      <!-- Screen 6: Check My Chances -->
+      <div id="screen-6" class="screen">
+        <section class="card">
+          <h2>Check My Chances</h2>
+          <p class="hint">Shows exactly what you are missing to get into a specific university.</p>
+          <hr class="screen-divider" />
+          <div id="chances-content">
+            <label class="label" for="chances-uni-select">Select a university you did not qualify for:</label>
+            <select id="chances-uni-select"></select>
+            <div id="chances-detail"></div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <template id="subject-row-template">
@@ -83,6 +125,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
     <script src="./app.js?v=__BUILD_VERSION__"></script>
+    <script>
+      // Strip ?from=intro so a refresh always returns to the welcome screen (about.html).
+      history.replaceState({}, "", window.location.pathname);
+    </script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.getRegistrations().then((registrations) => {
