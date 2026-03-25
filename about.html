@@ -203,6 +203,78 @@
         padding-bottom: 0.5rem;
       }
 
+      /* ── Terms consent popup ─────────────────────────────────────── */
+      .consent-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(15, 23, 42, 0.6);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+      }
+      .consent-overlay.hidden {
+        display: none;
+      }
+      .consent-box {
+        background: #fff;
+        border-radius: 16px;
+        padding: 1.5rem;
+        max-width: 400px;
+        width: 100%;
+        box-shadow: 0 8px 32px rgba(15, 23, 42, 0.18);
+        text-align: center;
+      }
+      .consent-logo {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 0.5rem;
+      }
+      .consent-message {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: var(--text);
+        margin: 0 0 1.25rem;
+      }
+      .consent-message a {
+        color: var(--primary);
+        font-weight: 600;
+      }
+      .consent-btn-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.6rem;
+      }
+      .consent-btn-row button {
+        margin-top: 0;
+      }
+      .consent-terms-link {
+        margin-top: 0.75rem;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .consent-terms-link a {
+        color: var(--primary);
+        font-weight: 600;
+      }
+
+      /* ── Terms footer link ───────────────────────────────────────── */
+      .terms-footer-link {
+        text-align: center;
+        font-size: 0.85rem;
+        padding-bottom: 0.25rem;
+      }
+      .terms-footer-link a {
+        color: var(--primary);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .terms-footer-link a:hover {
+        text-decoration: underline;
+      }
+
       .cta-btn {
         display: block;
         text-align: center;
@@ -368,9 +440,24 @@
         <a href="./index.html?from=intro" class="cta-btn">Start Checking My APS</a>
       </div>
 
+      <p class="terms-footer-link"><a href="./terms.html">Terms and Conditions</a></p>
       <p class="footer-note">APSWise · Data sourced from 2026 undergraduate prospectuses</p>
 
     </main>
+
+    <!-- Terms consent popup -->
+    <div class="consent-overlay hidden" id="consent-overlay" role="dialog" aria-modal="true" aria-labelledby="consent-heading">
+      <div class="consent-box">
+        <p class="consent-logo">APSWise</p>
+        <p class="consent-message" id="consent-heading">
+          By using APSWise you agree to our Terms and Conditions. This app does not save any of your information.
+        </p>
+        <div class="consent-btn-row">
+          <button type="button" class="secondary" id="consent-read-btn">Read Terms</button>
+          <button type="button" id="consent-agree-btn">I Agree</button>
+        </div>
+      </div>
+    </div>
     <script>
       // Show "Skip" when arriving fresh (redirected from index), "← Back to App" when coming from the calculator
       const cameFromApp = new URLSearchParams(window.location.search).get("from") === "app";
@@ -379,6 +466,23 @@
         const svg = document.querySelector("#back-link svg");
         if (svg) svg.remove();
       }
+
+      // ── Terms consent popup ──────────────────────────────────────
+      const AGREED_KEY = "apswise_terms_agreed";
+      const overlay = document.getElementById("consent-overlay");
+
+      if (!localStorage.getItem(AGREED_KEY)) {
+        overlay.classList.remove("hidden");
+      }
+
+      document.getElementById("consent-agree-btn").addEventListener("click", function () {
+        localStorage.setItem(AGREED_KEY, "1");
+        overlay.classList.add("hidden");
+      });
+
+      document.getElementById("consent-read-btn").addEventListener("click", function () {
+        window.location.href = "./terms.html";
+      });
     </script>
   </body>
 </html>
