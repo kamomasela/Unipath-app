@@ -7,6 +7,7 @@
     <title>APSWise APS Checker</title>
     <link rel="manifest" href="./manifest.webmanifest?v=__BUILD_VERSION__" />
     <link rel="stylesheet" href="./styles.css?v=__BUILD_VERSION__" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6212888913089047" crossorigin="anonymous"></script>
   </head>
   <body>
     <main class="container">
@@ -39,6 +40,18 @@
             <div id="subjects" class="subjects"></div>
 
             <button type="button" id="add-subject-btn" class="secondary">Add Subject</button>
+            <!-- Ad: Screen 2 — below inputs, above Calculate APS -->
+            <div class="ad-container">
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-client="ca-pub-6212888913089047"
+                   data-ad-slot="YOUR-AD-SLOT-ID"
+                   data-ad-format="auto"
+                   data-full-width-responsive="true"></ins>
+              <script>
+                   (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
             <button type="submit">Calculate APS</button>
             <button type="button" id="reset-all-btn" class="danger">Reset All</button>
           </form>
@@ -53,6 +66,18 @@
           <h2>Your APS Score Per Qualifying University</h2>
           <button type="button" id="view-programs-btn">View Programs</button>
           <div id="aps-list"></div>
+          <!-- Ad: Screen 3 — bottom -->
+          <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-6212888913089047"
+                 data-ad-slot="YOUR-AD-SLOT-ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
         </section>
       </div>
 
@@ -73,6 +98,18 @@
             <button type="button" id="what-if-btn" class="secondary">What If I Improve?</button>
             <button type="button" id="check-chances-btn" class="secondary">Check My Chances</button>
           </div>
+          <!-- Ad: Screen 4 — top, below action buttons, above results -->
+          <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-6212888913089047"
+                 data-ad-slot="YOUR-AD-SLOT-ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
           <p class="hint">Mode: Qualify only (NOT_ELIGIBLE hidden)</p>
           <div id="confidence-notice" class="hint"></div>
           <div id="results"></div>
@@ -87,6 +124,18 @@
           <p class="hint">Shows which subjects to improve and by how much to unlock more programmes.</p>
           <hr class="screen-divider" />
           <div id="improvement-detail"></div>
+          <!-- Ad: Screen 5 — bottom -->
+          <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-6212888913089047"
+                 data-ad-slot="YOUR-AD-SLOT-ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
         </section>
       </div>
 
@@ -100,6 +149,18 @@
             <label class="label" for="chances-uni-select">Select a university you did not qualify for:</label>
             <select id="chances-uni-select"></select>
             <div id="chances-detail"></div>
+          </div>
+          <!-- Ad: Screen 6 — bottom -->
+          <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-6212888913089047"
+                 data-ad-slot="YOUR-AD-SLOT-ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
           </div>
         </section>
       </div>
@@ -139,6 +200,23 @@
           keys.forEach((key) => caches.delete(key));
         });
       }
+    </script>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent" class="cookie-banner" style="display:none">
+      <p>APSWise uses cookies for advertising purposes. By continuing to use this app you agree to our use of cookies as described in our <a href="./terms.html">Terms and Conditions</a>.</p>
+      <button type="button" id="cookie-accept-btn">Got It</button>
+    </div>
+    <script>
+      (function () {
+        if (!localStorage.getItem("apswise_cookie_consent")) {
+          document.getElementById("cookie-consent").style.display = "flex";
+        }
+        document.getElementById("cookie-accept-btn").addEventListener("click", function () {
+          localStorage.setItem("apswise_cookie_consent", "1");
+          document.getElementById("cookie-consent").style.display = "none";
+        });
+      })();
     </script>
   </body>
 </html>
