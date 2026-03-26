@@ -83,9 +83,6 @@
                  data-ad-slot="YOUR-AD-SLOT-ID"
                  data-ad-format="auto"
                  data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
           </div>
         </section>
       </div>
@@ -115,9 +112,6 @@
                  data-ad-slot="YOUR-AD-SLOT-ID"
                  data-ad-format="auto"
                  data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
           </div>
           <p class="hint">Mode: Qualify only (NOT_ELIGIBLE hidden)</p>
           <div id="confidence-notice" class="hint"></div>
@@ -141,9 +135,6 @@
                  data-ad-slot="YOUR-AD-SLOT-ID"
                  data-ad-format="auto"
                  data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
           </div>
         </section>
       </div>
@@ -167,9 +158,6 @@
                  data-ad-slot="YOUR-AD-SLOT-ID"
                  data-ad-format="auto"
                  data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
           </div>
         </section>
       </div>
@@ -197,6 +185,26 @@
     <script>
       // Strip ?from=intro so a refresh always returns to the welcome screen (about.html).
       history.replaceState({}, "", window.location.pathname);
+    </script>
+    <script>
+      // Initialize AdSense ads on screens 3-6 only when each screen becomes visible,
+      // because push({}) on a hidden (display:none) element is ignored by AdSense.
+      (function () {
+        [3, 4, 5, 6].forEach(function (n) {
+          var screen = document.getElementById("screen-" + n);
+          if (!screen) return;
+          var observer = new MutationObserver(function () {
+            if (screen.classList.contains("active")) {
+              var uninitAds = screen.querySelectorAll(".adsbygoogle:not([data-adsbygoogle-status])");
+              uninitAds.forEach(function () {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              });
+              observer.disconnect();
+            }
+          });
+          observer.observe(screen, { attributes: true, attributeFilter: ["class"] });
+        });
+      })();
     </script>
     <script>
       if ("serviceWorker" in navigator) {
