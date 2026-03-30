@@ -149,7 +149,6 @@ const STORAGE_KEYS = {
 };
 
 let universityRules = [];
-let lastPdfData = null; // stores latest evaluation for PDF export
 let _currentScreen = 2; // tracks which screen is active: 2 = enter marks, 3 = aps list, 4 = results, 5 = improve, 6 = chances
 let _lastEvaluation = null; // { input, evaluation } stored after each Calculate APS
 const ENFORCE_SUBJECT_MINIMUMS = true;
@@ -161,7 +160,6 @@ const dom = {
   subjects: document.getElementById("subjects"),
   addSubjectBtn: document.getElementById("add-subject-btn"),
   resetAllBtn: document.getElementById("reset-all-btn"),
-  savePdfBtn: document.getElementById("save-pdf-btn"),
   viewProgramsBtn: document.getElementById("view-programs-btn"),
   whatIfBtn: document.getElementById("what-if-btn"),
   checkChancesBtn: document.getElementById("check-chances-btn"),
@@ -1565,186 +1563,6 @@ function renderPrivateResults(subjectMarks) {
   });
 }
 
-// ---------------------------------------------------------------------------
-// PDF Export
-// ---------------------------------------------------------------------------
-
-function markToLevel(mark) {
-  if (mark >= 80) return 7;
-  if (mark >= 70) return 6;
-  if (mark >= 60) return 5;
-  if (mark >= 50) return 4;
-  if (mark >= 40) return 3;
-  if (mark >= 30) return 2;
-  return 1;
-}
-
-function generatePDF() {
-  if (!lastPdfData) return;
-  const { subjectMarks, visibleUniversities, generatedAt } = lastPdfData;
-
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
-
-  const PRIMARY   = [11, 79, 108];   // #0b4f6c
-  const DARK      = [15, 23, 42];    // #0f172a
-  const MUTED     = [71, 85, 105];   // #475569
-  const LIGHT_BG  = [230, 240, 245]; // #e6f0f5
-  const WHITE     = [255, 255, 255];
-  const PAGE_W    = 210;
-  const MARGIN    = 14;
-  const CONTENT_W = PAGE_W - MARGIN * 2;
-
-  let y = 0;
-
-  // ── helpers ──────────────────────────────────────────────────────────────
-  function checkPageBreak(needed = 10) {
-    if (y + needed > 272) {
-      doc.addPage();
-      y = 16;
-    }
-  }
-
-  function sectionHeading(text) {
-    checkPageBreak(14);
-    doc.setFillColor(...PRIMARY);
-    doc.roundedRect(MARGIN, y, CONTENT_W, 9, 2, 2, "F");
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(10);
-    doc.setTextColor(...WHITE);
-    doc.text(text, MARGIN + 4, y + 6);
-    doc.setTextColor(...DARK);
-    y += 12;
-  }
-
-  function uniHeading(name, aps) {
-    checkPageBreak(18);
-    doc.setFillColor(...LIGHT_BG);
-    doc.roundedRect(MARGIN, y, CONTENT_W, 13, 2, 2, "F");
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(11);
-    doc.setTextColor(...PRIMARY);
-    doc.text(name, MARGIN + 3, y + 5.5);
-    doc.setFont("helvetica", "normal");
-    doc.setFontSize(9);
-    doc.setTextColor(...MUTED);
-    doc.text(`Your APS for this university: ${aps}`, MARGIN + 3, y + 10.5);
-    doc.setTextColor(...DARK);
-    y += 16;
-  }
-
-  // ── Cover / Header ────────────────────────────────────────────────────────
-  // Colour bar at top
-  doc.setFillColor(...PRIMARY);
-  doc.rect(0, 0, PAGE_W, 28, "F");
-
-  // App name
-  doc.setFont("helvetica", "bold");
-  doc.setFontSize(22);
-  doc.setTextColor(...WHITE);
-  doc.text("APSWise", MARGIN, 17);
-
-  // Subtitle
-  doc.setFont("helvetica", "normal");
-  doc.setFontSize(9);
-  doc.text("APS & Course Eligibility Results", MARGIN, 23);
-
-  // Date (right-aligned)
-  doc.setFontSize(8);
-  const dateStr = "Generated: " + new Date(generatedAt).toLocaleDateString("en-ZA", {
-    day: "2-digit", month: "long", year: "numeric"
-  });
-  doc.text(dateStr, PAGE_W - MARGIN, 23, { align: "right" });
-
-  y = 36;
-
-  // ── 1. Student Subjects & Marks ───────────────────────────────────────────
-  sectionHeading("Your Subjects & Marks");
-
-  const subjectRows = subjectMarks.map((s) => [
-    s.subject,
-    `${s.mark}%`,
-    markToLevel(s.mark),
-  ]);
-
-  doc.autoTable({
-    startY: y,
-    head: [["Subject", "Mark", "Level"]],
-    body: subjectRows,
-    margin: { left: MARGIN, right: MARGIN },
-    styles: { fontSize: 9, cellPadding: 3, textColor: DARK },
-    headStyles: { fillColor: PRIMARY, textColor: WHITE, fontStyle: "bold", fontSize: 9 },
-    alternateRowStyles: { fillColor: [248, 250, 252] },
-    columnStyles: {
-      0: { cellWidth: "auto" },
-      1: { cellWidth: 22, halign: "center" },
-      2: { cellWidth: 22, halign: "center" },
-    },
-    theme: "grid",
-  });
-
-  y = doc.lastAutoTable.finalY + 8;
-
-  // ── 2. Qualifying Programmes grouped by university ────────────────────────
-  sectionHeading(`Qualifying Programmes  (${visibleUniversities.length} ${visibleUniversities.length === 1 ? "university" : "universities"})`);
-
-  visibleUniversities.forEach((uni) => {
-    const programmes = (uni.programmes || uni.eligibleProgrammes || []).filter(
-      (p) => p.classification === "QUALIFY"
-    );
-    if (!programmes.length) return;
-
-    uniHeading(uni.universityName, uni.aps);
-
-    const progRows = programmes.map((p) => {
-      const reqs = formatSubjectRequirements(p.subjectMinimums);
-      return [
-        p.name + (p.stream === "extended" ? " (Extended)" : ""),
-        p.faculty || "—",
-        String(p.minimumAPS),
-        reqs ? reqs.join("\n") : "—",
-      ];
-    });
-
-    doc.autoTable({
-      startY: y,
-      head: [["Programme", "Faculty", "Min APS", "Subject Requirements"]],
-      body: progRows,
-      margin: { left: MARGIN, right: MARGIN },
-      styles: { fontSize: 8, cellPadding: 2.5, textColor: DARK, overflow: "linebreak" },
-      headStyles: { fillColor: [230, 240, 245], textColor: PRIMARY, fontStyle: "bold", fontSize: 8 },
-      alternateRowStyles: { fillColor: [248, 250, 252] },
-      columnStyles: {
-        0: { cellWidth: 60 },
-        1: { cellWidth: 38 },
-        2: { cellWidth: 18, halign: "center" },
-        3: { cellWidth: "auto" },
-      },
-      theme: "grid",
-      didDrawPage: () => { y = doc.lastAutoTable.finalY; },
-    });
-
-    y = doc.lastAutoTable.finalY + 6;
-  });
-
-  // ── Footer on every page ──────────────────────────────────────────────────
-  const pageCount = doc.getNumberOfPages();
-  for (let i = 1; i <= pageCount; i++) {
-    doc.setPage(i);
-    doc.setFont("helvetica", "normal");
-    doc.setFontSize(7.5);
-    doc.setTextColor(...MUTED);
-    doc.text(
-      "APSWise · Results are predictive and based on published entry requirements. Verify with universities directly.",
-      PAGE_W / 2, 290, { align: "center" }
-    );
-    doc.text(`Page ${i} of ${pageCount}`, PAGE_W - MARGIN, 290, { align: "right" });
-  }
-
-  const filename = `APSWise_Results_${new Date(generatedAt).toISOString().slice(0, 10)}.pdf`;
-  doc.save(filename);
-}
-
 function saveLastResult(payload) {
   localStorage.setItem(STORAGE_KEYS.lastResult, JSON.stringify(payload));
 }
@@ -1837,18 +1655,6 @@ function onSubmit(event) {
   renderAPSScreen(evaluation.visible);
   showScreen(3);
 
-  if (evaluation.visible.length > 0) {
-    lastPdfData = {
-      subjectMarks: input.subjectMarks,
-      visibleUniversities: evaluation.visible,
-      generatedAt: new Date().toISOString(),
-    };
-    dom.savePdfBtn.style.display = "";
-  } else {
-    lastPdfData = null;
-    dom.savePdfBtn.style.display = "none";
-  }
-
   const confidence = getConfidenceLabel(input.gradeSource);
   dom.confidenceNotice.textContent = `Confidence: ${confidence}. Results are predictive and may change based on final performance.`;
 
@@ -1870,9 +1676,7 @@ function resetAll() {
   if (privateContainer) privateContainer.innerHTML = '';
   dom.gradeSource.value = "grade11_final";
   dom.subjects.innerHTML = "";
-  lastPdfData = null;
   _lastEvaluation = null;
-  dom.savePdfBtn.style.display = "none";
   showScreen(2);
   addSubjectRow();
   addSubjectRow();
@@ -1883,7 +1687,6 @@ async function init() {
   dom.addSubjectBtn.addEventListener("click", () => addSubjectRow());
   dom.form.addEventListener("submit", onSubmit);
   dom.resetAllBtn.addEventListener("click", resetAll);
-  dom.savePdfBtn.addEventListener("click", generatePDF);
   dom.gradeSource.addEventListener("change", updateGradeSourceNotice);
   dom.viewProgramsBtn.addEventListener("click", () => showScreen(4));
   dom.whatIfBtn.addEventListener("click", () => { renderScreen5(); showScreen(5); });

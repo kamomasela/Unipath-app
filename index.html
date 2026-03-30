@@ -90,16 +90,7 @@
       <!-- Screen 4: Results Screen -->
       <div id="screen-4" class="screen">
         <section class="card">
-          <div class="results-header">
-            <h2>Results</h2>
-            <button type="button" id="save-pdf-btn" class="secondary pdf-btn" style="display:none" aria-label="Save results as PDF">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M12 16l-4-4h2.5V4h3v8H16l-4 4z" fill="currentColor"/>
-                <path d="M20 18H4v2h16v-2z" fill="currentColor"/>
-              </svg>
-              Save as PDF
-            </button>
-          </div>
+          <h2>Results</h2>
           <div class="action-btn-row">
             <button type="button" id="what-if-btn" class="secondary">What If I Improve?</button>
             <button type="button" id="check-chances-btn" class="secondary">Check My Chances</button>
@@ -179,8 +170,7 @@
         window.location.replace("./about.html");
       }
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+
     <script src="./app.js?v=__BUILD_VERSION__"></script>
     <script>
       // Strip ?from=intro so a refresh always returns to the welcome screen (about.html).
