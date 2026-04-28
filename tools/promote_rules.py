@@ -99,6 +99,8 @@ def apply_programme_catalogue(university: dict, catalogue: dict) -> None:
         "aps_mathematics": record.get("aps_mathematics"),
         "aps_mathematical_literacy": record.get("aps_mathematical_literacy"),
         "aps_technical_mathematics": record.get("aps_technical_mathematics"),
+        "notes": record.get("notes"),
+        "admission_notes": record.get("admission_notes"),
       }
     )
   # Authoritative: replace extracted programmes with curated catalogue entries.

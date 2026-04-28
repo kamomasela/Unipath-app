@@ -1882,9 +1882,158 @@ def parse_nwu(csv_path: Path) -> list[dict]:
 
 def parse_nmu(csv_path: Path) -> list[dict]:
     """
-    NMU uses Admission Score (AS) — 290–500 range.
-    Has Minimum_AS_Maths and Minimum_AS_MathLit columns.
+    NMU v2 CSV (semicolon-delimited):
+      Programme;AS_Mathematics;AS_Technical_Mathematics;AS_Mathematical_Literacy;Subject_Requirements
+
+    Rules applied:
+      1. Dash in APS column  → maths type not accepted (None).
+      2. "Math Lit: Not accepted" in Subject_Requirements → aps_mathematical_literacy forced None.
+      3. All-dash APS → Advanced Diploma / PGCE needing prior qual; minimum_aps=0, notes added.
+      4. Portfolio / audition / selection → competitive_flag=True, admission_notes stored.
+      5. George Campus already in programme name; no extra labelling needed.
     """
+
+    def _parse_aps(val: str) -> Optional[int]:
+        v = val.strip()
+        if not v or v in ("\u2013", "\u2014", "-", "–", "—"):
+            return None
+        try:
+            return int(v)
+        except ValueError:
+            return None
+
+    def _pct_to_level(pct: int) -> int:
+        if pct >= 80: return 7
+        if pct >= 70: return 6
+        if pct >= 60: return 5
+        if pct >= 50: return 4
+        if pct >= 40: return 3
+        if pct >= 30: return 2
+        return 1
+
+    def _parse_subject_reqs(req: str) -> list[dict]:
+        """Parse Subject_Requirements string into subject_minimums entries."""
+        if not req or req.startswith("Requires:") or req.startswith("Must be employed"):
+            return []
+
+        parts = [p.strip() for p in req.split("|")]
+        minimums: list[dict] = []
+        seen: set = set()
+        or_gid = [0]
+        # Maths-type entries collected so they can share one OR group
+        maths_entries: dict = {}
+
+        skip_kws = (
+            "not accepted", "portfolio", "audition", "interview", "cv required",
+            "employment", "work integrated", "closing date", "admission subject",
+            "police clearance", "sanc", "sacssp", "medical", "active competitive",
+            "sport cv", "grade 2", "grade 5", "grade 6", "min grade", "minimum grade",
+            "full-time", "in-service", "1 year", "6-12 month", "note:",
+        )
+
+        for part in parts:
+            if not part:
+                continue
+            pl = part.lower()
+            if any(kw in pl for kw in skip_kws):
+                continue
+
+            m = re.match(r'^(.+?):\s*(\d+)%', part)
+            if not m:
+                continue
+            subj_raw = m.group(1).strip()
+            pct      = int(m.group(2))
+            level    = _pct_to_level(pct)
+            sl       = subj_raw.lower()
+
+            # ── Maths-type subjects (all collected into one OR group) ──────
+            if any(kw in sl for kw in ("maths", "math lit", "technical math")):
+                if "maths or tech maths" in sl or "math or tech math" in sl:
+                    maths_entries.setdefault("Mathematics", level)
+                    maths_entries.setdefault("Technical Mathematics", level)
+                elif "tech maths or math lit" in sl or "tech math or math lit" in sl:
+                    maths_entries.setdefault("Technical Mathematics", level)
+                    maths_entries.setdefault("Mathematical Literacy", level)
+                elif "maths or math lit" in sl or "math or math lit" in sl:
+                    maths_entries.setdefault("Mathematics", level)
+                    maths_entries.setdefault("Mathematical Literacy", level)
+                elif re.match(r'^tech(?:nical)?\s+maths?$', sl):
+                    maths_entries.setdefault("Technical Mathematics", level)
+                elif re.match(r'^math(?:ematical)?\s+lit(?:eracy)?$', sl):
+                    maths_entries.setdefault("Mathematical Literacy", level)
+                elif re.match(r'^maths?$', sl) or sl == "mathematics":
+                    maths_entries.setdefault("Mathematics", level)
+                continue
+
+            # ── English ───────────────────────────────────────────────────
+            if "english" in sl:
+                if "home or first" in sl:
+                    or_gid[0] += 1
+                    gid = or_gid[0]
+                    for s in ("English Home Language", "English First Additional Language"):
+                        k = (s, level, gid)
+                        if k not in seen:
+                            seen.add(k)
+                            minimums.append({"subject": s, "minimum_mark": level, "or_group": gid})
+                elif "home" in sl:
+                    k = ("English Home Language", level, 0)
+                    if k not in seen:
+                        seen.add(k)
+                        minimums.append({"subject": "English Home Language", "minimum_mark": level, "or_group": 0})
+                elif "first add" in sl:
+                    k = ("English First Additional Language", level, 0)
+                    if k not in seen:
+                        seen.add(k)
+                        minimums.append({"subject": "English First Additional Language", "minimum_mark": level, "or_group": 0})
+                else:
+                    # Generic "English: XX%" → treat as HL or FAL
+                    or_gid[0] += 1
+                    gid = or_gid[0]
+                    for s in ("English Home Language", "English First Additional Language"):
+                        k = (s, level, gid)
+                        if k not in seen:
+                            seen.add(k)
+                            minimums.append({"subject": s, "minimum_mark": level, "or_group": gid})
+                continue
+
+            # ── Physical Sciences (Tech Science treated as equivalent) ─────
+            if "physical science" in sl or "tech science" in sl:
+                k = ("Physical Sciences", level, 0)
+                if k not in seen:
+                    seen.add(k)
+                    minimums.append({"subject": "Physical Sciences", "minimum_mark": level, "or_group": 0})
+                continue
+
+            # ── Life Sciences ─────────────────────────────────────────────
+            if "life science" in sl:
+                k = ("Life Sciences", level, 0)
+                if k not in seen:
+                    seen.add(k)
+                    minimums.append({"subject": "Life Sciences", "minimum_mark": level, "or_group": 0})
+                continue
+
+            # All other subjects (FET specialisations, Afrikaans, etc.) → skip
+
+        # Emit maths entries: one OR group if multiple types, standalone if one
+        if maths_entries:
+            if len(maths_entries) > 1:
+                or_gid[0] += 1
+                gid = or_gid[0]
+                for subj, lvl in maths_entries.items():
+                    k = (subj, lvl, gid)
+                    if k not in seen:
+                        seen.add(k)
+                        minimums.append({"subject": subj, "minimum_mark": lvl, "or_group": gid})
+            else:
+                for subj, lvl in maths_entries.items():
+                    k = (subj, lvl, 0)
+                    if k not in seen:
+                        seen.add(k)
+                        minimums.append({"subject": subj, "minimum_mark": lvl, "or_group": 0})
+
+        return minimums
+
+    # ── Main parsing loop ────────────────────────────────────────────────
     entries = []
     with open(csv_path, newline="", encoding="utf-8-sig") as fh:
         reader = csv.DictReader(fh, delimiter=";")
@@ -1893,49 +2042,58 @@ def parse_nmu(csv_path: Path) -> list[dict]:
             if not programme:
                 continue
 
-            faculty = row.get("Faculty", "").strip()
+            req_str = row.get("Subject_Requirements", "").strip()
 
-            # APS (NMU Admission Score)
-            as_maths  = to_int(row.get("Minimum_AS_Maths", ""))
-            as_mathl  = to_int(row.get("Minimum_AS_MathLit", ""))
-            candidates = [v for v in (as_maths, as_mathl) if v is not None and v > 0]
-            if not candidates:
-                continue
-            minimum_aps = min(candidates)
+            aps_maths = _parse_aps(row.get("AS_Mathematics", ""))
+            aps_tech  = _parse_aps(row.get("AS_Technical_Mathematics", ""))
+            aps_lit   = _parse_aps(row.get("AS_Mathematical_Literacy", ""))
 
-            minimums: list[dict] = []
-            seen: set[tuple] = set()
-            or_group_id = [0]
+            # Rule 2: explicit Math Lit rejection in subject requirements
+            if "math lit: not accepted" in req_str.lower():
+                aps_lit = None
 
-            # English
-            eng_raw = row.get("English_Requirement", "").strip()
-            _parse_english_requirement(eng_raw, or_group_id, minimums, seen)
+            # Rule 3: all dashes → prior qualification required
+            all_dash = aps_maths is None and aps_tech is None and aps_lit is None
+            if all_dash:
+                minimum_aps = 0
+                entry_notes: Optional[str] = (
+                    "Note: This programme requires a prior diploma or degree. "
+                    "Not available to matric learners directly."
+                )
+            else:
+                candidates = [v for v in (aps_maths, aps_tech, aps_lit) if v is not None]
+                minimum_aps = min(candidates) if candidates else 0
+                entry_notes = None
 
-            # Mathematics
-            math_raw = row.get("Mathematics_Requirement", "").strip()
-            ml_raw   = ""  # inline in math_raw
-            _parse_math_requirement(math_raw, ml_raw, or_group_id, minimums, seen)
+            # Rule 4: special admission requirements → competitive_flag + admission_notes
+            rl = req_str.lower()
+            adm_notes: list[str] = []
+            if "portfolio" in rl and "interview" in rl:
+                adm_notes.append("Portfolio and interview required")
+            elif "portfolio" in rl:
+                adm_notes.append("Portfolio required")
+            if "audition" in rl:
+                adm_notes.append("Audition required")
+            if "admission subject to" in rl:
+                adm_notes.append("Admission subject to selection")
 
-            # Physical Sciences
-            phys_raw = row.get("Physical_Sciences_Requirement", "").strip()
-            _parse_science_requirement(phys_raw, "Physical Sciences", or_group_id, minimums, seen)
+            entry: dict = {
+                "name":                      programme,
+                "faculty":                   "",
+                "minimum_aps":               minimum_aps,
+                "competitive_flag":          bool(adm_notes),
+                "mainstream_or_extended":    "extended" if is_extended(programme) else "mainstream",
+                "subject_minimums":          _parse_subject_reqs(req_str),
+                "aps_mathematics":           aps_maths,
+                "aps_mathematical_literacy": aps_lit,
+                "aps_technical_mathematics": aps_tech,
+            }
+            if entry_notes:
+                entry["notes"] = entry_notes
+            if adm_notes:
+                entry["admission_notes"] = " | ".join(adm_notes)
 
-            # Life Sciences
-            life_raw = row.get("Life_Sciences_Requirement", "").strip()
-            _parse_science_requirement(life_raw, "Life Sciences", or_group_id, minimums, seen)
-
-            # Additional
-            addl_raw = row.get("Additional_Subject_Requirements", "").strip()
-            _parse_additional_subjects(addl_raw, or_group_id, minimums, seen)
-
-            entries.append({
-                "name": programme,
-                "faculty": faculty,
-                "minimum_aps": minimum_aps,
-                "competitive_flag": False,
-                "mainstream_or_extended": "extended" if is_extended(programme) else "mainstream",
-                "subject_minimums": minimums,
-            })
+            entries.append(entry)
 
     return entries
 
@@ -2635,7 +2793,7 @@ UNIVERSITY_PARSERS: list[dict] = [
     {
         "id": "nmu",
         "name": "Nelson Mandela University",
-        "csv_filename": "nmu_2026_programmes_final.csv",
+        "csv_filename": "nmu_2026_programmes_v2.csv",
         "parser": parse_nmu,
     },
     {

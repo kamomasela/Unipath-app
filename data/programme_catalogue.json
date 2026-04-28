@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T22:04:35Z",
+  "generated_at": "2026-04-28T10:16:30Z",
   "universities": {
     "uct": [
       {
@@ -19956,321 +19956,947 @@
     ],
     "nmu": [
       {
-        "name": "HCert in Accountancy",
-        "faculty": "Business & Economic Sciences",
+        "name": "HCERT (ACCOUNTANCY)",
+        "faculty": "",
         "minimum_aps": 290,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 3,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 3,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "HCert in Business Studies",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 290,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 3,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 3,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Accountancy",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 350,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Economics",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 350,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Human Resource Management",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 350,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Logistics",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 290,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
           {
             "subject": "Mathematics",
             "minimum_mark": 2,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
+            "minimum_mark": 5,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 290
       },
       {
-        "name": "Diploma in Inventory & Stores Management",
-        "faculty": "Business & Economic Sciences",
+        "name": "HCERT (BUSINESS STUDIES)",
+        "faculty": "",
         "minimum_aps": 290,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
+            "subject": "Mathematics",
+            "minimum_mark": 2,
             "or_group": 1
           },
           {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
             "or_group": 1
           },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 290
+      },
+      {
+        "name": "DIP (ACCOUNTANCY)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 350
+      },
+      {
+        "name": "DIP (ECONOMICS)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "DIP (ECONOMICS) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
           {
             "subject": "Mathematics",
             "minimum_mark": 2,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 4,
-            "or_group": 2
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
       },
       {
-        "name": "Diploma in Management",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 350,
+        "name": "DIP (HUMAN RESOURCE MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
+            "minimum_mark": 4,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
       },
       {
-        "name": "Diploma in Marketing",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 350,
+        "name": "DIP (HUMAN RESOURCE MANAGEMENT) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
+      },
+      {
+        "name": "DIP (INVENTORY & STORES MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 290,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
+            "minimum_mark": 4,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 290
       },
       {
-        "name": "Diploma in Tourism Management",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 350,
+        "name": "DIP (LOGISTICS)",
+        "faculty": "",
+        "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 5,
-            "or_group": 2
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
       },
       {
-        "name": "BCom (General Accounting)",
-        "faculty": "Business & Economic Sciences",
+        "name": "DIP (LOGISTICS) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
+      },
+      {
+        "name": "DIP (MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "DIP (MANAGEMENT) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
+      },
+      {
+        "name": "DIP (MARKETING)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "DIP (MARKETING) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
+      },
+      {
+        "name": "DIP (TOURISM MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "DIP (TOURISM MANAGEMENT) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
+      },
+      {
+        "name": "ADVANCED DIPLOMA (ECONOMICS)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: HUMAN RESOURCE MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: LOGISTICS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MANAGEMENT PRACTICE)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MARKETING MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: TOURISM MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MONITORING & EVALUATION)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: FINANCIAL PLANNING AND SERVICES)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA: ACCOUNTANCY (PROFESSIONAL ACCOUNTING)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA: ACCOUNTANCY (INTERNAL AUDITING)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BCOM: GENERAL (ECONOMICS)",
+        "faculty": "",
         "minimum_aps": 390,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 4
+            "minimum_mark": 4,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BCom (Accounting / Chartered Accounting)",
-        "faculty": "Business & Economic Sciences",
+        "name": "BCOM: GENERAL (ECONOMICS) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM: GENERAL (ACCOUNTING)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM: GENERAL (ACCOUNTING) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM: GENERAL (BUSINESS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM: GENERAL (BUSINESS MANAGEMENT) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (FINANCIAL PLANNING)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (FINANCIAL PLANNING) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM: GENERAL (TOURISM)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 6,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": 405,
+        "aps_technical_mathematics": 390
+      },
+      {
+        "name": "BCOM: GENERAL (TOURISM) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": 385,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "BCOM (MARKETING & BUSINESS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (HOSPITALITY MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 6,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": 405,
+        "aps_technical_mathematics": 390
+      },
+      {
+        "name": "BCOM: GENERAL (STATISTICS)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (ACCOUNTING)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (COMPUTER SCIENCE & INFORMATION SYSTEMS)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (ECONOMICS & STATISTICS)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (INDUSTRIAL PSYCHOLOGY & HUMAN RESOURCE MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (INFORMATION SYSTEMS: BUSINESS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (LOGISTICS & TRANSPORT ECONOMICS)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM (FOOD SERVICE MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM: ACCOUNTING SCIENCE (ECONOMICS / BUSINESS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BCOM: ACCOUNTING SCIENCE (LAW)",
+        "faculty": "",
         "minimum_aps": 410,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
@@ -20278,450 +20904,97 @@
           {
             "subject": "English Home Language",
             "minimum_mark": 5,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
+            "minimum_mark": 6,
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
-            "minimum_mark": 5
+            "minimum_mark": 5,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BCom Accounting Science (Economics & Business Management)",
-        "faculty": "Business & Economic Sciences",
+        "name": "BCOM: ACCOUNTING SCIENCE (COMPUTER SCIENCE & INFORMATION SYSTEMS)",
+        "faculty": "",
         "minimum_aps": 410,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 5
+            "minimum_mark": 5,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BCom Accounting Science (Law)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 410,
+        "name": "BA (HUMAN RESOURCE MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 350,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BCom Accounting Science (Computer Science & IS)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 410,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BCom (General – Business Management)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
           {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
+            "minimum_mark": 6,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 350
       },
       {
-        "name": "BCom (General – Economics)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
+        "name": "BA (DEVELOPMENT STUDIES)",
+        "faculty": "",
+        "minimum_aps": 350,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
           {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BCom (General – Statistics)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
             "or_group": 1
           },
           {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BCom (Economics and Statistics)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BCom (Marketing and Business Management)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
+            "subject": "Technical Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
+            "minimum_mark": 6,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 350
       },
       {
-        "name": "BCom (Industrial Psychology and HRM)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BCom (Logistics and Transport Economics)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BCom (Financial Planning)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BCom (General – Tourism)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BCom (Food Service Management)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BCom in Hospitality Management",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BA (Human Resource Management)",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BA in Development Studies",
-        "faculty": "Business & Economic Sciences",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BEd (Foundation Phase)",
-        "faculty": "Education",
+        "name": "BED (FOUNDATION PHASE: GRADES R-3)",
+        "faculty": "",
         "minimum_aps": 350,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
@@ -20742,15 +21015,23 @@
             "or_group": 2
           },
           {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 2
+          },
+          {
             "subject": "Mathematical Literacy",
             "minimum_mark": 5,
             "or_group": 2
           }
-        ]
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
       },
       {
-        "name": "BEd (Intermediate Phase)",
-        "faculty": "Education",
+        "name": "BED (INTERMEDIATE PHASE: GRADES 4-6)",
+        "faculty": "",
         "minimum_aps": 370,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
@@ -20771,15 +21052,23 @@
             "or_group": 2
           },
           {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 2
+          },
+          {
             "subject": "Mathematical Literacy",
             "minimum_mark": 5,
             "or_group": 2
           }
-        ]
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": 385,
+        "aps_technical_mathematics": 385
       },
       {
-        "name": "BEd (Senior Phase & FET)",
-        "faculty": "Education",
+        "name": "BED (SENIOR PHASE & FET: COMMERCE STREAM)",
+        "faculty": "",
         "minimum_aps": 390,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
@@ -20793,12 +21082,1551 @@
             "subject": "English First Additional Language",
             "minimum_mark": 4,
             "or_group": 1
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "HCert in Mechatronic Engineering",
-        "faculty": "Engineering, Built Environment & Technology",
+        "name": "BED (SENIOR PHASE & FET: SCIENCE STREAM)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "English Home Language",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "English First Additional Language",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BED (SENIOR PHASE & FET: HUMANITIES STREAM)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "English Home Language",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "English First Additional Language",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 2
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 2
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 2
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": 405,
+        "aps_technical_mathematics": 405
+      },
+      {
+        "name": "ADVANCED DIPLOMA IN TECHNICAL AND VOCATIONAL TEACHING",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "PGCE: FET (FURTHER EDUCATION AND TRAINING)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "PGCE: SP & FET (SENIOR PHASE AND FURTHER EDUCATION AND TRAINING)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "HCERT (MECHATRONIC ENGINEERING)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "HCERT (RENEWABLE ENERGY ENGINEERING)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "DIP (OPERATIONS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
+      },
+      {
+        "name": "ADVANCED DIPLOMA (QUALITY)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (OPERATIONS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BENG (MECHATRONICS)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BENGTECH (ELECTRICAL ENGINEERING)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "BENGTECH (INDUSTRIAL ENGINEERING)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "BENGTECH (MECHANICAL ENGINEERING)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "BENGTECH (MARINE ENGINEERING)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "BENGTECH (CIVIL ENGINEERING)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "DIP (ARCHITECTURAL TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330,
+        "admission_notes": "Portfolio and interview required"
+      },
+      {
+        "name": "DIP (INTERIOR DESIGN)",
+        "faculty": "",
+        "minimum_aps": 315,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 3,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 315,
+        "aps_mathematical_literacy": 330,
+        "aps_technical_mathematics": 315,
+        "admission_notes": "Portfolio and interview required"
+      },
+      {
+        "name": "ADVANCED DIPLOMA (ARCHITECTURAL DESIGN)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (ARCHITECTURAL TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (INTERIOR DESIGN)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BACHELOR OF ARCHITECTURAL STUDIES (BAS)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Portfolio and interview required"
+      },
+      {
+        "name": "HCERT (HUMAN SETTLEMENT DEVELOPMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "DIP (BUILDING)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 330,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "ADVANCED DIPLOMA (QUANTITY SURVEYING)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (CONSTRUCTION MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BSC (CONSTRUCTION ECONOMICS)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BSC (CONSTRUCTION STUDIES)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BHSD (HUMAN SETTLEMENT DEVELOPMENT)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 6,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": 385,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "HCERT: IT (USER SUPPORT SERVICES)",
+        "faculty": "",
+        "minimum_aps": 290,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 290
+      },
+      {
+        "name": "DIP: IT (SOFTWARE DEVELOPMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "DIP: IT (COMMUNICATION NETWORKS)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "DIP: IT (SUPPORT SERVICES)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "BACHELOR OF INFORMATION TECHNOLOGY (BIT)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": 370
+      },
+      {
+        "name": "ADVANCED DIPLOMA (INFORMATION TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BACHELOR OF ENVIRONMENTAL HEALTH",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BA (PSYCHOLOGY)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "BSW (SOCIAL WORK)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "BSC (DIETETICS)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "DIP (SPORT MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345
+      },
+      {
+        "name": "BHMS (HUMAN MOVEMENT SCIENCE)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "BHSC: BIOKINETICS",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": 385,
+        "aps_technical_mathematics": 385
+      },
+      {
+        "name": "BACHELOR OF NURSING – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 3,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345
+      },
+      {
+        "name": "BACHELOR OF NURSING",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": 385,
+        "aps_technical_mathematics": 385
+      },
+      {
+        "name": "BACHELOR OF RADIOGRAPHY (DIAGNOSTIC) (BRAD)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BACHELOR OF EMERGENCY MEDICAL CARE (BEMC)",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": 385,
+        "aps_technical_mathematics": 385
+      },
+      {
+        "name": "BHSC: MEDICAL LABORATORY SCIENCE",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BPHARM (PHARMACY)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "English Home Language",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "English First Additional Language",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "MBCHB (BACHELOR OF MEDICINE AND BACHELOR OF SURGERY)",
+        "faculty": "",
+        "minimum_aps": 430,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "English Home Language",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "English First Additional Language",
+            "minimum_mark": 5,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 430,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BACHELOR OF VISUAL ART (BVA)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365,
+        "admission_notes": "Portfolio and interview required | Admission subject to selection"
+      },
+      {
+        "name": "DIPLOMA IN MUSIC (CURRICULUM 1)",
+        "faculty": "",
+        "minimum_aps": 290,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 305,
+        "admission_notes": "Audition required"
+      },
+      {
+        "name": "DIPLOMA IN MUSIC (CURRICULUM 2)",
+        "faculty": "",
+        "minimum_aps": 290,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 305,
+        "admission_notes": "Audition required"
+      },
+      {
+        "name": "BMUS (SCHOOL MUSIC)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365,
+        "admission_notes": "Audition required"
+      },
+      {
+        "name": "BMUS (SCHOOL MUSIC) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": true,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BMUS (PERFORMING ARTS)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365,
+        "admission_notes": "Audition required"
+      },
+      {
+        "name": "BMUS (PERFORMING ARTS) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": true,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BMUS (MUSIC TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365,
+        "admission_notes": "Audition required"
+      },
+      {
+        "name": "BMUS (MUSIC TECHNOLOGY) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": true,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "BMUS (GENERAL)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": true,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365,
+        "admission_notes": "Audition required"
+      },
+      {
+        "name": "BMUS (GENERAL) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": true,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345,
+        "admission_notes": "Admission subject to selection"
+      },
+      {
+        "name": "DIP (PUBLIC RELATIONS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345
+      },
+      {
+        "name": "ADVANCED DIPLOMA (PUBLIC RELATIONS MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BA (LANGUAGE MEDIA AND COMMUNICATION)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "BA (MEDIA COMMUNICATION AND CULTURE)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "DIP (PUBLIC MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 325
+      },
+      {
+        "name": "DIP (PUBLIC MANAGEMENT) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 290,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 305
+      },
+      {
+        "name": "ADVANCED DIPLOMA (PUBLIC ADMINISTRATION AND MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BA (GOVERNMENTAL AND SOCIAL SCIENCES)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "BA (POLITICS AND ECONOMICS)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 6,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 6,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "BADMIN (PUBLIC ADMINISTRATION)",
+        "faculty": "",
+        "minimum_aps": 350,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 4,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": 365,
+        "aps_technical_mathematics": 365
+      },
+      {
+        "name": "HCERT (LAW ENFORCEMENT)",
+        "faculty": "",
         "minimum_aps": 310,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
@@ -20806,111 +22634,21 @@
           {
             "subject": "English Home Language",
             "minimum_mark": 4,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "English First Additional Language",
             "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 325
       },
       {
-        "name": "HCert in Renewable Energy Engineering",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 310,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "HCert in IT (User Support Services)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 290,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "HCert in Human Settlement Development",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 290,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in IT (Software Development)",
-        "faculty": "Engineering, Built Environment & Technology",
+        "name": "DIP (LAW ENFORCEMENT)",
+        "faculty": "",
         "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
@@ -20918,576 +22656,21 @@
           {
             "subject": "English Home Language",
             "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in IT (Communication Networks)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 330,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in IT (Support Services)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 330,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Architecture",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Building",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 330,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 3
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Operations Management",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 330,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BEngTech (Civil Engineering)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 420,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BEngTech (Electrical Engineering)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 420,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BEngTech (Industrial Engineering)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 420,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BEngTech (Mechanical Engineering)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 420,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BEngTech (Marine Engineering)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 420,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BEngTech (Mechatronic Engineering)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 420,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BEngTech (Chemical Engineering)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 420,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "Bachelor of Architectural Studies (BAS)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BSc (Construction Economics – Quantity Surveying & Financial Business Management)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BSc (Construction Studies)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Bachelor of Human Settlement Development (BHSD)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Bachelor of Information Technology (BIT)",
-        "faculty": "Engineering, Built Environment & Technology",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "MBChB (Bachelor of Medicine and Bachelor of Surgery)",
-        "faculty": "Health Sciences",
-        "minimum_aps": 500,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "English First Additional Language",
             "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 5
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 345
       },
       {
-        "name": "BPharm (Bachelor of Pharmacy)",
-        "faculty": "Health Sciences",
-        "minimum_aps": 450,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BSc Radiography (Diagnostic)",
-        "faculty": "Health Sciences",
-        "minimum_aps": 400,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BSc Physiotherapy",
-        "faculty": "Health Sciences",
+        "name": "BA (LAW)",
+        "faculty": "",
         "minimum_aps": 390,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
@@ -21495,1554 +22678,1004 @@
           {
             "subject": "English Home Language",
             "minimum_mark": 5,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BSc Occupational Therapy",
-        "faculty": "Health Sciences",
-        "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
             "minimum_mark": 6,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BSc Speech-Language Pathology & Audiology",
-        "faculty": "Health Sciences",
-        "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 6,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BSc Human Movement Science (Biokinetics)",
-        "faculty": "Health Sciences",
-        "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
             "minimum_mark": 4,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 6,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 6,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": 405,
+        "aps_technical_mathematics": 405
       },
       {
-        "name": "BSc Emergency Medical Care",
-        "faculty": "Health Sciences",
+        "name": "BCOM (LAW)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "English Home Language",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "English First Additional Language",
+            "minimum_mark": 6,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "LLB (LAW)",
+        "faculty": "",
+        "minimum_aps": 390,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "English Home Language",
+            "minimum_mark": 5,
+            "or_group": 0
+          },
+          {
+            "subject": "English First Additional Language",
+            "minimum_mark": 6,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "LLB – EXTENDED CURRICULUM",
+        "faculty": "",
         "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BSc Medical Laboratory Sciences",
-        "faculty": "Health Sciences",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BSc Nursing (4-year)",
-        "faculty": "Health Sciences",
-        "minimum_aps": 360,
         "competitive_flag": false,
         "mainstream_or_extended": "extended",
         "subject_minimums": [
           {
             "subject": "English Home Language",
             "minimum_mark": 5,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "English First Additional Language",
             "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BSc Dietetics",
-        "faculty": "Health Sciences",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BSc Environmental Health",
-        "faculty": "Health Sciences",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BSc Psychology",
-        "faculty": "Health Sciences",
-        "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BSc Social Work",
-        "faculty": "Health Sciences",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 6,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
+            "minimum_mark": 6,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": 385,
+        "aps_technical_mathematics": 385
       },
       {
-        "name": "Diploma in Sport Management",
-        "faculty": "Health Sciences",
-        "minimum_aps": 290,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BA (General / various majors)",
-        "faculty": "Humanities",
-        "minimum_aps": 350,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BA (Fine Art)",
-        "faculty": "Humanities",
-        "minimum_aps": 350,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BA (Drama / Theatre and Performance)",
-        "faculty": "Humanities",
-        "minimum_aps": 350,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BMus (Bachelor of Music)",
-        "faculty": "Humanities",
+        "name": "DIP (AGRICULTURAL MANAGEMENT)",
+        "faculty": "",
         "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
+            "subject": "Physical Sciences",
+            "minimum_mark": 3,
+            "or_group": 0
+          },
+          {
+            "subject": "Life Sciences",
             "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BSocSc (Bachelor of Social Sciences)",
-        "faculty": "Humanities",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BSocSc Social Work",
-        "faculty": "Humanities",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
             "or_group": 1
           },
           {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
+            "subject": "Technical Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BA (Communication)",
-        "faculty": "Humanities",
-        "minimum_aps": 360,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
             "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BSocSc (Philosophy, Politics & Economics – PPE)",
-        "faculty": "Humanities",
-        "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4,
-            "or_group": 2
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 5,
-            "or_group": 2
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
       },
       {
-        "name": "BA in Government and Politics",
-        "faculty": "Humanities",
+        "name": "DIP (ANALYTICAL CHEMISTRY)",
+        "faculty": "",
         "minimum_aps": 350,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
+            "subject": "Physical Sciences",
             "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
             "minimum_mark": 4,
-            "or_group": 2
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BA in Language Practice",
-        "faculty": "Humanities",
-        "minimum_aps": 350,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 2,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "HCert in Criminal Justice",
-        "faculty": "Law",
-        "minimum_aps": 310,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Law Enforcement",
-        "faculty": "Law",
+        "name": "DIP (GAME RANCH MANAGEMENT)",
+        "faculty": "",
         "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "LLB (Bachelor of Laws) – 4 years",
-        "faculty": "Law",
-        "minimum_aps": 390,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
             "or_group": 1
           },
           {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "LLB (Extended) – 5 years",
-        "faculty": "Law",
-        "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "extended",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
+            "subject": "Technical Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 6,
-            "or_group": 2
+            "minimum_mark": 5,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
       },
       {
-        "name": "BA in Law",
-        "faculty": "Law",
-        "minimum_aps": 390,
+        "name": "DIP (POLYMER TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 350,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
             "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 6,
-            "or_group": 2
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BCom in Law",
-        "faculty": "Law",
-        "minimum_aps": 390,
+        "name": "DIP (CHEMICAL PROCESS TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 350,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
+            "subject": "Physical Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
-            "minimum_mark": 5
+            "minimum_mark": 4,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 350,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BCom Accounting Science (Law) [Law Faculty pathway]",
-        "faculty": "Law",
+        "name": "ADVANCED DIPLOMA (ANALYTICAL CHEMISTRY)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (AGRICULTURAL MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "ADVANCED DIPLOMA (GAME RANCH MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "BSC (BIOLOGICAL SCIENCES)",
+        "faculty": "",
         "minimum_aps": 410,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 5,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 5
+            "minimum_mark": 5,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "Diploma in Analytical Chemistry",
-        "faculty": "Science",
-        "minimum_aps": 340,
+        "name": "BSC (BIOLOGICAL SCIENCES) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BSC (BIOCHEMISTRY CHEMISTRY MICROBIOLOGY AND PHYSIOLOGY)",
+        "faculty": "",
+        "minimum_aps": 410,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
+            "minimum_mark": 5,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "Diploma in Agricultural Management",
-        "faculty": "Science",
-        "minimum_aps": 300,
+        "name": "BSC (BIOCHEMISTRY CHEMISTRY MICROBIOLOGY AND PHYSIOLOGY) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BSC (ENVIRONMENTAL SCIENCES)",
+        "faculty": "",
+        "minimum_aps": 410,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BSC (ENVIRONMENTAL SCIENCES) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
           {
             "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BSC: GEOSCIENCES (GEOLOGY AND GEOGRAPHY)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BSC: GEOSCIENCES (GEOLOGY AND GEOGRAPHY) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 4,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BSC (COMPUTER SCIENCE)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "BSC (PHYSICAL SCIENCE AND MATHEMATICS)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "GEORGE CAMPUS – HCERT (BUSINESS STUDIES)",
+        "faculty": "",
+        "minimum_aps": 290,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 3
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 290
       },
       {
-        "name": "Diploma in Game Ranch Management",
-        "faculty": "Science",
-        "minimum_aps": 300,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 3
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Polymer Technology",
-        "faculty": "Science",
+        "name": "GEORGE CAMPUS – DIP (MANAGEMENT)",
+        "faculty": "",
         "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 4
+            "minimum_mark": 3,
+            "or_group": 1
           },
           {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
       },
       {
-        "name": "Diploma in Chemical Process Technology",
-        "faculty": "Science",
+        "name": "GEORGE CAMPUS – DIP (MANAGEMENT) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 4,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
+      },
+      {
+        "name": "GEORGE CAMPUS – DIP (MARKETING)",
+        "faculty": "",
         "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Forestry",
-        "faculty": "Science",
-        "minimum_aps": 300,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "GEORGE CAMPUS – DIP (MARKETING) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 3
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
       },
       {
-        "name": "Diploma in Nature Conservation",
-        "faculty": "Science",
-        "minimum_aps": 300,
+        "name": "GEORGE CAMPUS – DIP (TOURISM MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "GEORGE CAMPUS – DIP (TOURISM MANAGEMENT) – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 310,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 3
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 310,
+        "aps_mathematical_literacy": 325,
+        "aps_technical_mathematics": 310
       },
       {
-        "name": "Diploma in Wood Technology",
-        "faculty": "Science",
-        "minimum_aps": 300,
+        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (BUSINESS STUDIES: MANAGEMENT PRACTICE)",
+        "faculty": "",
+        "minimum_aps": 0,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
-        "name": "BSc (Biological Sciences)",
-        "faculty": "Science",
-        "minimum_aps": 370,
+        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (BUSINESS STUDIES: MARKETING MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
-        "name": "BSc (Biochemistry)",
-        "faculty": "Science",
-        "minimum_aps": 380,
+        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (BUSINESS STUDIES: TOURISM MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
-        "name": "BSc (Chemistry)",
-        "faculty": "Science",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 5
-          }
-        ]
-      },
-      {
-        "name": "BSc (Microbiology and Physiology)",
-        "faculty": "Science",
-        "minimum_aps": 380,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BSc (Computer Science)",
-        "faculty": "Science",
+        "name": "GEORGE CAMPUS – BCOM: GENERAL",
+        "faculty": "",
         "minimum_aps": 390,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 5
+            "minimum_mark": 4,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BSc (Physical Science and Mathematics)",
-        "faculty": "Science",
+        "name": "GEORGE CAMPUS – BCOM: GENERAL – EXTENDED CURRICULUM",
+        "faculty": "",
+        "minimum_aps": 370,
+        "competitive_flag": false,
+        "mainstream_or_extended": "extended",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "GEORGE CAMPUS – BCOM (ACCOUNTING)",
+        "faculty": "",
+        "minimum_aps": 410,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 5,
+            "or_group": 0
+          }
+        ],
+        "aps_mathematics": 410,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
+      },
+      {
+        "name": "GEORGE CAMPUS – BCOM (GENERAL ACCOUNTING)",
+        "faculty": "",
         "minimum_aps": 390,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 5
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 5
+            "minimum_mark": 4,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "BSc (Environmental Sciences)",
-        "faculty": "Science",
+        "name": "GEORGE CAMPUS – BCOM (GENERAL ACCOUNTING) – EXTENDED CURRICULUM",
+        "faculty": "",
         "minimum_aps": 370,
         "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
+        "mainstream_or_extended": "extended",
         "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "BSc (Geosciences)",
-        "faculty": "Science",
-        "minimum_aps": 370,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 4
-          },
-          {
-            "subject": "Physical Sciences",
-            "minimum_mark": 4
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Agricultural Management (George)",
-        "faculty": "Science (George Campus)",
-        "minimum_aps": 300,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
           {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 3
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 370,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "Diploma in Forestry (George)",
-        "faculty": "Science (George Campus)",
-        "minimum_aps": 300,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 3
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Nature Conservation (George)",
-        "faculty": "Science (George Campus)",
-        "minimum_aps": 300,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          },
-          {
-            "subject": "Life Sciences",
-            "minimum_mark": 3
-          }
-        ]
-      },
-      {
-        "name": "Diploma in Wood Technology (George)",
-        "faculty": "Science (George Campus)",
-        "minimum_aps": 300,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [
-          {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
-          },
-          {
-            "subject": "Mathematical Literacy",
-            "minimum_mark": 4,
-            "or_group": 2
-          }
-        ]
-      },
-      {
-        "name": "BCom General Accounting (George)",
-        "faculty": "Business & Economic Sciences (George Campus)",
+        "name": "GEORGE CAMPUS – BCOM: GENERAL (BUSINESS MANAGEMENT AND INDUSTRIAL AND ORGANISATIONAL PSYCHOLOGY)",
+        "faculty": "",
         "minimum_aps": 390,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 4
+            "minimum_mark": 4,
+            "or_group": 0
           }
-        ]
+        ],
+        "aps_mathematics": 390,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null
       },
       {
-        "name": "Diploma in Management (George)",
-        "faculty": "Business & Economic Sciences (George Campus)",
-        "minimum_aps": 350,
+        "name": "GEORGE CAMPUS – HCERT: IT (USER SUPPORT SERVICES)",
+        "faculty": "",
+        "minimum_aps": 290,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
-            "subject": "English First Additional Language",
-            "minimum_mark": 4,
-            "or_group": 1
-          },
-          {
             "subject": "Mathematics",
-            "minimum_mark": 3,
-            "or_group": 2
+            "minimum_mark": 2,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 2,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
-            "minimum_mark": 5,
-            "or_group": 2
+            "minimum_mark": 4,
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 290,
+        "aps_mathematical_literacy": 305,
+        "aps_technical_mathematics": 290
       },
       {
-        "name": "Diploma in Marketing (George)",
-        "faculty": "Business & Economic Sciences (George Campus)",
-        "minimum_aps": 350,
+        "name": "GEORGE CAMPUS – DIP (AGRICULTURAL MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
+            "subject": "Physical Sciences",
+            "minimum_mark": 3,
+            "or_group": 0
           },
           {
-            "subject": "English First Additional Language",
+            "subject": "Life Sciences",
             "minimum_mark": 4,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 5,
-            "or_group": 2
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
       },
       {
-        "name": "Diploma in Tourism Management (George)",
-        "faculty": "Business & Economic Sciences (George Campus)",
-        "minimum_aps": 350,
+        "name": "GEORGE CAMPUS – DIP (FORESTRY)",
+        "faculty": "",
+        "minimum_aps": 330,
         "competitive_flag": false,
         "mainstream_or_extended": "mainstream",
         "subject_minimums": [
           {
-            "subject": "English Home Language",
-            "minimum_mark": 4,
-            "or_group": 1
+            "subject": "Physical Sciences",
+            "minimum_mark": 3,
+            "or_group": 0
           },
           {
-            "subject": "English First Additional Language",
+            "subject": "Life Sciences",
             "minimum_mark": 4,
-            "or_group": 1
+            "or_group": 0
           },
           {
             "subject": "Mathematics",
             "minimum_mark": 3,
-            "or_group": 2
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
           },
           {
             "subject": "Mathematical Literacy",
             "minimum_mark": 5,
-            "or_group": 2
+            "or_group": 1
           }
-        ]
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "GEORGE CAMPUS – DIP (NATURE CONSERVATION)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 3,
+            "or_group": 0
+          },
+          {
+            "subject": "Life Sciences",
+            "minimum_mark": 4,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "GEORGE CAMPUS – DIP (WOOD TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 330,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [
+          {
+            "subject": "Physical Sciences",
+            "minimum_mark": 3,
+            "or_group": 0
+          },
+          {
+            "subject": "Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Technical Mathematics",
+            "minimum_mark": 3,
+            "or_group": 1
+          },
+          {
+            "subject": "Mathematical Literacy",
+            "minimum_mark": 5,
+            "or_group": 1
+          }
+        ],
+        "aps_mathematics": 330,
+        "aps_mathematical_literacy": 345,
+        "aps_technical_mathematics": 330
+      },
+      {
+        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (AGRICULTURAL MANAGEMENT)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (WOOD TECHNOLOGY)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (FORESTRY)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
+      },
+      {
+        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (NATURE CONSERVATION)",
+        "faculty": "",
+        "minimum_aps": 0,
+        "competitive_flag": false,
+        "mainstream_or_extended": "mainstream",
+        "subject_minimums": [],
+        "aps_mathematics": null,
+        "aps_mathematical_literacy": null,
+        "aps_technical_mathematics": null,
+        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       }
     ],
     "rhodes": [
