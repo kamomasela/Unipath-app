@@ -2052,18 +2052,13 @@ def parse_nmu(csv_path: Path) -> list[dict]:
             if "math lit: not accepted" in req_str.lower():
                 aps_lit = None
 
-            # Rule 3: all dashes → prior qualification required
-            all_dash = aps_maths is None and aps_tech is None and aps_lit is None
-            if all_dash:
-                minimum_aps = 0
-                entry_notes: Optional[str] = (
-                    "Note: This programme requires a prior diploma or degree. "
-                    "Not available to matric learners directly."
-                )
-            else:
-                candidates = [v for v in (aps_maths, aps_tech, aps_lit) if v is not None]
-                minimum_aps = min(candidates) if candidates else 0
-                entry_notes = None
+            # Rule 3: all dashes → requires prior qualification; skip for matric learners
+            if aps_maths is None and aps_tech is None and aps_lit is None:
+                continue
+
+            candidates = [v for v in (aps_maths, aps_tech, aps_lit) if v is not None]
+            minimum_aps = min(candidates) if candidates else 0
+            entry_notes: Optional[str] = None
 
             # Rule 4: special admission requirements → competitive_flag + admission_notes
             rl = req_str.lower()

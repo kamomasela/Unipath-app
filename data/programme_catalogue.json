@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T10:16:30Z",
+  "generated_at": "2026-04-28T10:41:01Z",
   "universities": {
     "uct": [
       {
@@ -20388,126 +20388,6 @@
         "aps_technical_mathematics": 310
       },
       {
-        "name": "ADVANCED DIPLOMA (ECONOMICS)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: HUMAN RESOURCE MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: LOGISTICS MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MANAGEMENT PRACTICE)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MARKETING MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: TOURISM MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MONITORING & EVALUATION)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: FINANCIAL PLANNING AND SERVICES)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA: ACCOUNTANCY (PROFESSIONAL ACCOUNTING)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA: ACCOUNTANCY (INTERNAL AUDITING)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
         "name": "BCOM: GENERAL (ECONOMICS)",
         "faculty": "",
         "minimum_aps": 390,
@@ -21158,42 +21038,6 @@
         "aps_technical_mathematics": 405
       },
       {
-        "name": "ADVANCED DIPLOMA IN TECHNICAL AND VOCATIONAL TEACHING",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "PGCE: FET (FURTHER EDUCATION AND TRAINING)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "PGCE: SP & FET (SENIOR PHASE AND FURTHER EDUCATION AND TRAINING)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
         "name": "HCERT (MECHATRONIC ENGINEERING)",
         "faculty": "",
         "minimum_aps": 330,
@@ -21273,30 +21117,6 @@
         "aps_mathematics": 310,
         "aps_mathematical_literacy": 325,
         "aps_technical_mathematics": 310
-      },
-      {
-        "name": "ADVANCED DIPLOMA (QUALITY)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (OPERATIONS MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
         "name": "BENG (MECHATRONICS)",
@@ -21512,42 +21332,6 @@
         "admission_notes": "Portfolio and interview required"
       },
       {
-        "name": "ADVANCED DIPLOMA (ARCHITECTURAL DESIGN)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (ARCHITECTURAL TECHNOLOGY)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (INTERIOR DESIGN)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
         "name": "BACHELOR OF ARCHITECTURAL STUDIES (BAS)",
         "faculty": "",
         "minimum_aps": 370,
@@ -21564,18 +21348,6 @@
         "aps_mathematical_literacy": null,
         "aps_technical_mathematics": null,
         "admission_notes": "Portfolio and interview required"
-      },
-      {
-        "name": "HCERT (HUMAN SETTLEMENT DEVELOPMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
         "name": "DIP (BUILDING)",
@@ -21599,30 +21371,6 @@
         "aps_mathematical_literacy": null,
         "aps_technical_mathematics": 330,
         "admission_notes": "Admission subject to selection"
-      },
-      {
-        "name": "ADVANCED DIPLOMA (QUANTITY SURVEYING)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (CONSTRUCTION MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
         "name": "BSC (CONSTRUCTION ECONOMICS)",
@@ -21811,18 +21559,6 @@
         "aps_mathematics": 370,
         "aps_mathematical_literacy": null,
         "aps_technical_mathematics": 370
-      },
-      {
-        "name": "ADVANCED DIPLOMA (INFORMATION TECHNOLOGY)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
         "name": "BACHELOR OF ENVIRONMENTAL HEALTH",
@@ -22412,18 +22148,6 @@
         "aps_technical_mathematics": 345
       },
       {
-        "name": "ADVANCED DIPLOMA (PUBLIC RELATIONS MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
         "name": "BA (LANGUAGE MEDIA AND COMMUNICATION)",
         "faculty": "",
         "minimum_aps": 350,
@@ -22530,18 +22254,6 @@
         "aps_mathematics": 290,
         "aps_mathematical_literacy": 305,
         "aps_technical_mathematics": 305
-      },
-      {
-        "name": "ADVANCED DIPLOMA (PUBLIC ADMINISTRATION AND MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       },
       {
         "name": "BA (GOVERNMENTAL AND SOCIAL SCIENCES)",
@@ -22927,42 +22639,6 @@
         "aps_technical_mathematics": null
       },
       {
-        "name": "ADVANCED DIPLOMA (ANALYTICAL CHEMISTRY)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (AGRICULTURAL MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "ADVANCED DIPLOMA (GAME RANCH MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
         "name": "BSC (BIOLOGICAL SCIENCES)",
         "faculty": "",
         "minimum_aps": 410,
@@ -23322,42 +22998,6 @@
         "aps_technical_mathematics": 310
       },
       {
-        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (BUSINESS STUDIES: MANAGEMENT PRACTICE)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (BUSINESS STUDIES: MARKETING MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (BUSINESS STUDIES: TOURISM MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
         "name": "GEORGE CAMPUS – BCOM: GENERAL",
         "faculty": "",
         "minimum_aps": 390,
@@ -23628,54 +23268,6 @@
         "aps_mathematics": 330,
         "aps_mathematical_literacy": 345,
         "aps_technical_mathematics": 330
-      },
-      {
-        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (AGRICULTURAL MANAGEMENT)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (WOOD TECHNOLOGY)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (FORESTRY)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
-      },
-      {
-        "name": "GEORGE CAMPUS – ADVANCED DIPLOMA (NATURE CONSERVATION)",
-        "faculty": "",
-        "minimum_aps": 0,
-        "competitive_flag": false,
-        "mainstream_or_extended": "mainstream",
-        "subject_minimums": [],
-        "aps_mathematics": null,
-        "aps_mathematical_literacy": null,
-        "aps_technical_mathematics": null,
-        "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly."
       }
     ],
     "rhodes": [

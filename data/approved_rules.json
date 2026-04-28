@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-04-28T10:18:06Z",
+  "generated_at": "2026-04-28T10:41:01Z",
   "source_pending_file": "/Users/tebogo_msimanga/Documents/Claude code codex/unipath-app/data/pending_rules.json",
   "source_decisions_file": "/Users/tebogo_msimanga/Documents/Claude code codex/unipath-app/data/approval_decisions.json",
   "source_subject_minimum_overrides_file": "/Users/tebogo_msimanga/Documents/Claude code codex/unipath-app/data/subject_minimum_overrides.json",
@@ -1184,7 +1184,7 @@
       "application_fee": "R100",
       "aps_formula": "uct_percentage_sum_top6_excl_lo",
       "approval_notes": "Sample approval for development seed data.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "uj",
@@ -6560,7 +6560,7 @@
       "application_fee": "Varies by year",
       "aps_formula": "nsc_top6_excl_lo",
       "approval_notes": "Sample approval for development seed data.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "uwc",
@@ -7946,7 +7946,7 @@
       "application_fee": "R100",
       "aps_formula": "uwc_weighted_points",
       "approval_notes": "Approved with manual correction: Bachelor of Social Work minimum set to 34 UWC points.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "up",
@@ -11269,7 +11269,7 @@
       "application_fee": "R300",
       "aps_formula": "nsc_top6_excl_lo",
       "approval_notes": "Temporarily approved using local sample source for MVP demo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "wits",
@@ -12681,7 +12681,7 @@
       "application_fee": "R200",
       "aps_formula": "wits_weighted_best7_including_lo",
       "approval_notes": "Approved based on provided official 2026 Wits prospectus PDF.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "sun",
@@ -14825,7 +14825,7 @@
       "application_fee": "R100",
       "aps_formula": "sun_selection_mark_average",
       "approval_notes": "Temporarily approved using local sample source for MVP demo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "ul",
@@ -16669,7 +16669,7 @@
       "application_fee": "R200",
       "aps_formula": "nsc_top6_excl_lo",
       "approval_notes": "Approved based on provided official 2026 UL prospectus PDF.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "univen",
@@ -19227,7 +19227,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "nwu",
@@ -23455,7 +23455,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "nmu",
@@ -23932,136 +23932,6 @@
           "aps_mathematical_literacy": 325,
           "aps_technical_mathematics": 310,
           "notes": null,
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (ECONOMICS)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: HUMAN RESOURCE MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: LOGISTICS MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MANAGEMENT PRACTICE)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MARKETING MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: TOURISM MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: MONITORING & EVALUATION)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (BUSINESS STUDIES: FINANCIAL PLANNING AND SERVICES)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA: ACCOUNTANCY (PROFESSIONAL ACCOUNTING)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA: ACCOUNTANCY (INTERNAL AUDITING)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
           "admission_notes": null
         },
         {
@@ -24775,45 +24645,6 @@
           "admission_notes": null
         },
         {
-          "name": "ADVANCED DIPLOMA IN TECHNICAL AND VOCATIONAL TEACHING",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "PGCE: FET (FURTHER EDUCATION AND TRAINING)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "PGCE: SP & FET (SENIOR PHASE AND FURTHER EDUCATION AND TRAINING)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
           "name": "HCERT (MECHATRONIC ENGINEERING)",
           "faculty": "",
           "minimum_aps": 330,
@@ -24898,32 +24729,6 @@
           "aps_mathematical_literacy": 325,
           "aps_technical_mathematics": 310,
           "notes": null,
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (QUALITY)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (OPERATIONS MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
           "admission_notes": null
         },
         {
@@ -25154,45 +24959,6 @@
           "admission_notes": "Portfolio and interview required"
         },
         {
-          "name": "ADVANCED DIPLOMA (ARCHITECTURAL DESIGN)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (ARCHITECTURAL TECHNOLOGY)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (INTERIOR DESIGN)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
           "name": "BACHELOR OF ARCHITECTURAL STUDIES (BAS)",
           "faculty": "",
           "minimum_aps": 370,
@@ -25210,19 +24976,6 @@
           "aps_technical_mathematics": null,
           "notes": null,
           "admission_notes": "Portfolio and interview required"
-        },
-        {
-          "name": "HCERT (HUMAN SETTLEMENT DEVELOPMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
         },
         {
           "name": "DIP (BUILDING)",
@@ -25247,32 +25000,6 @@
           "aps_technical_mathematics": 330,
           "notes": null,
           "admission_notes": "Admission subject to selection"
-        },
-        {
-          "name": "ADVANCED DIPLOMA (QUANTITY SURVEYING)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (CONSTRUCTION MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
         },
         {
           "name": "BSC (CONSTRUCTION ECONOMICS)",
@@ -25474,19 +25201,6 @@
           "aps_mathematical_literacy": null,
           "aps_technical_mathematics": 370,
           "notes": null,
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (INFORMATION TECHNOLOGY)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
           "admission_notes": null
         },
         {
@@ -26113,19 +25827,6 @@
           "admission_notes": null
         },
         {
-          "name": "ADVANCED DIPLOMA (PUBLIC RELATIONS MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
           "name": "BA (LANGUAGE MEDIA AND COMMUNICATION)",
           "faculty": "",
           "minimum_aps": 350,
@@ -26239,19 +25940,6 @@
           "aps_mathematical_literacy": 305,
           "aps_technical_mathematics": 305,
           "notes": null,
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (PUBLIC ADMINISTRATION AND MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
           "admission_notes": null
         },
         {
@@ -26666,45 +26354,6 @@
           "admission_notes": null
         },
         {
-          "name": "ADVANCED DIPLOMA (ANALYTICAL CHEMISTRY)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (AGRICULTURAL MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "ADVANCED DIPLOMA (GAME RANCH MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
           "name": "BSC (BIOLOGICAL SCIENCES)",
           "faculty": "",
           "minimum_aps": 410,
@@ -27098,45 +26747,6 @@
           "admission_notes": null
         },
         {
-          "name": "GEORGE CAMPUS \u2013 ADVANCED DIPLOMA (BUSINESS STUDIES: MANAGEMENT PRACTICE)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "GEORGE CAMPUS \u2013 ADVANCED DIPLOMA (BUSINESS STUDIES: MARKETING MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "GEORGE CAMPUS \u2013 ADVANCED DIPLOMA (BUSINESS STUDIES: TOURISM MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
           "name": "GEORGE CAMPUS \u2013 BCOM: GENERAL",
           "faculty": "",
           "minimum_aps": 390,
@@ -27429,63 +27039,11 @@
           "aps_technical_mathematics": 330,
           "notes": null,
           "admission_notes": null
-        },
-        {
-          "name": "GEORGE CAMPUS \u2013 ADVANCED DIPLOMA (AGRICULTURAL MANAGEMENT)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "GEORGE CAMPUS \u2013 ADVANCED DIPLOMA (WOOD TECHNOLOGY)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "GEORGE CAMPUS \u2013 ADVANCED DIPLOMA (FORESTRY)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
-        },
-        {
-          "name": "GEORGE CAMPUS \u2013 ADVANCED DIPLOMA (NATURE CONSERVATION)",
-          "faculty": "",
-          "minimum_aps": 0,
-          "competitive_flag": false,
-          "mainstream_or_extended": "mainstream",
-          "subject_minimums": [],
-          "aps_mathematics": null,
-          "aps_mathematical_literacy": null,
-          "aps_technical_mathematics": null,
-          "notes": "Note: This programme requires a prior diploma or degree. Not available to matric learners directly.",
-          "admission_notes": null
         }
       ],
       "aps_formula": "nmu_admission_score",
       "approval_notes": "Approved from CSV prospectus data. APS formula: nmu_admission_score.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "rhodes",
@@ -27995,7 +27553,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "ufh",
@@ -28887,7 +28445,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "wsu",
@@ -31875,7 +31433,7 @@
       ],
       "aps_formula": "wsu_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: wsu_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "ukzn",
@@ -34241,7 +33799,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "ufs",
@@ -37893,7 +37451,7 @@
       ],
       "aps_formula": "ufs_modified_nsc",
       "approval_notes": "Approved from CSV prospectus data. APS formula: ufs_modified_nsc.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "ump",
@@ -38626,7 +38184,7 @@
       ],
       "aps_formula": "ump_lo_halved",
       "approval_notes": "Approved from CSV prospectus data. APS formula: ump_lo_halved.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "unizulu",
@@ -40092,7 +39650,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "spu",
@@ -40624,7 +40182,7 @@
       ],
       "aps_formula": "spu_modified_with_bonuses",
       "approval_notes": "Approved from CSV prospectus data. APS formula: spu_modified_with_bonuses.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "tut",
@@ -44668,7 +44226,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "dut",
@@ -46818,7 +46376,7 @@
       ],
       "aps_formula": "dut_subject_levels",
       "approval_notes": "Approved from CSV prospectus data. APS formula: dut_subject_levels.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "cut",
@@ -48130,7 +47688,7 @@
       ],
       "aps_formula": "cut_lo_capped_1",
       "approval_notes": "Approved from CSV prospectus data. APS formula: cut_lo_capped_1.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "vut",
@@ -49820,7 +49378,7 @@
       ],
       "aps_formula": "standard_best6_excl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: standard_best6_excl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "mut",
@@ -50684,7 +50242,7 @@
       ],
       "aps_formula": "mut_subject_levels",
       "approval_notes": "Approved from CSV prospectus data. APS formula: mut_subject_levels.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "smu",
@@ -51304,7 +50862,7 @@
       ],
       "aps_formula": "smu_all_subjects_incl_lo",
       "approval_notes": "Approved from CSV prospectus data. APS formula: smu_all_subjects_incl_lo.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     },
     {
       "id": "cput",
@@ -54769,7 +54327,7 @@
       "aps_formula": "cput_percentage_method1",
       "application_fee": 0,
       "approval_notes": "CPUT uses a percentage-based APS (not standard 7-point NSC). Three calculation methods apply. Per-math-type APS thresholds stored.",
-      "approved_at": "2026-04-28T10:18:06Z"
+      "approved_at": "2026-04-28T10:41:01Z"
     }
   ]
 }
