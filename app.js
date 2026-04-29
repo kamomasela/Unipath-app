@@ -145,7 +145,7 @@ const SUBJECT_GROUPS = [
 
 const STORAGE_KEYS = {
   lastResult: "unipath_last_result_v4",
-  rulesCache: "unipath_rules_cache_v3",
+  rulesCache: "unipath_rules_cache_v4",
 };
 
 let universityRules = [];
@@ -406,6 +406,13 @@ function calculateAPS(university, subjectMarks) {
     return Math.round(top6.reduce((sum, s) => sum + s.mark, 0) / top6.length);
   }
 
+  if (formula === "nmu_admission_score") {
+    // NMU Applicant Score: sum of percentages of 6 best subjects, excluding Life Orientation.
+    const nonLO = subjectMarks.filter((s) => s.subject !== "Life Orientation");
+    const top6 = [...nonLO].sort((a, b) => b.mark - a.mark).slice(0, 6);
+    return top6.reduce((sum, s) => sum + s.mark, 0);
+  }
+
   // Default: NSC top 6 levels excluding Life Orientation.
   const filtered = subjectMarks.filter((entry) => university.include_life_orientation || entry.subject !== "Life Orientation");
   const top6 = [...filtered].map((entry) => ({ ...entry, level: percentageToNSCLevel(entry.mark) })).sort((a, b) => b.level - a.level).slice(0, 6);
@@ -479,7 +486,17 @@ function checkSubjectMinimums(subjectMarks, requirements) {
   return failed;
 }
 
-function formatSubjectRequirements(subjectMinimums) {
+function nscLevelToMinPercentage(level) {
+  if (level >= 7) return 80;
+  if (level >= 6) return 70;
+  if (level >= 5) return 60;
+  if (level >= 4) return 50;
+  if (level >= 3) return 40;
+  if (level >= 2) return 30;
+  return 0;
+}
+
+function formatSubjectRequirements(subjectMinimums, asPercentage) {
   if (!subjectMinimums || !subjectMinimums.length) return null;
 
   const standalone = [];
@@ -493,10 +510,15 @@ function formatSubjectRequirements(subjectMinimums) {
     }
   });
 
+  const fmtRule = (r) =>
+    asPercentage
+      ? `${r.subject}: ${nscLevelToMinPercentage(r.minimum_mark)}%`
+      : `${r.subject} (Level ${r.minimum_mark})`;
+
   const lines = [];
-  standalone.forEach((rule) => lines.push(`${rule.subject} (Level ${rule.minimum_mark})`));
+  standalone.forEach((rule) => lines.push(fmtRule(rule)));
   Object.values(orGroups).forEach((groupRules) => {
-    lines.push(groupRules.map((r) => `${r.subject} (Level ${r.minimum_mark})`).join(" or "));
+    lines.push(groupRules.map(fmtRule).join(" or "));
   });
   return lines;
 }
@@ -545,26 +567,35 @@ function getRequiredAPS(course, subjectMarks) {
   return course.minimum_aps;
 }
 
-function classifyProgramme({ aps, minimumAPS, failedSubjectMinimums, competitive, gradeSource }) {
+function classifyProgramme({ aps, minimumAPS, failedSubjectMinimums, competitive, gradeSource, scoreLabel }) {
+  const isNMU = scoreLabel === "NMU AS";
+
   if (failedSubjectMinimums.length > 0) {
+    const subjectText = failedSubjectMinimums
+      .map((r) => isNMU
+        ? `${r.subject}: ${nscLevelToMinPercentage(r.minimum_mark)}%`
+        : `${r.subject} Level ${r.minimum_mark}`)
+      .join(", ");
     return {
       classification: "NOT_ELIGIBLE",
-      reason: `Subject minimum gap: ${failedSubjectMinimums
-        .map((r) => `${r.subject} Level ${r.minimum_mark}`)
-        .join(", ")}`,
+      reason: `Subject minimum gap: ${subjectText}`,
     };
   }
 
   if (aps < minimumAPS) {
     return {
       classification: "NOT_ELIGIBLE",
-      reason: `APS ${aps} is below minimum ${minimumAPS}.`,
+      reason: isNMU
+        ? `Your NMU Score: ${aps} is below the minimum required score of ${minimumAPS}.`
+        : `APS ${aps} is below minimum ${minimumAPS}.`,
     };
   }
 
   return {
     classification: "QUALIFY",
-    reason: `APS ${aps} meets minimum ${minimumAPS}.`,
+    reason: isNMU
+      ? `Your NMU Score: ${aps} meets the minimum required score of ${minimumAPS}.`
+      : `APS ${aps} meets minimum ${minimumAPS}.`,
   };
 }
 
@@ -592,6 +623,7 @@ function evaluateUniversity(university, gradeSource, subjectMarks) {
   }
 
   const aps = calculateAPS(university, subjectMarks);
+  const scoreLabel = university.id === "nmu" ? "NMU AS" : "APS";
   const programmes = (university.courses || []).map((course) => {
     const failedSubjectMinimums = checkSubjectMinimums(subjectMarks, course.subject_minimums);
     const requiredAPS = getRequiredAPS(course, subjectMarks);
@@ -601,6 +633,7 @@ function evaluateUniversity(university, gradeSource, subjectMarks) {
       failedSubjectMinimums,
       competitive: Boolean(course.competitive_flag),
       gradeSource,
+      scoreLabel,
     });
 
     return {
@@ -611,6 +644,7 @@ function evaluateUniversity(university, gradeSource, subjectMarks) {
       subjectMinimums: course.subject_minimums || [],
       competitive: Boolean(course.competitive_flag),
       stream: course.mainstream_or_extended || "mainstream",
+      subjectMinimumsAsPercentage: university.id === "nmu",
     };
   });
 
@@ -736,8 +770,11 @@ function renderChancesDetail(uni, container) {
     return;
   }
 
+  const isNMU = uni.universityId === "nmu";
+  const scoreLabel = isNMU ? "NMU Applicant Score" : "APS";
+
   const programmesHtml = notEligible.map((p) => {
-    const reqLines = formatSubjectRequirements(p.subjectMinimums);
+    const reqLines = formatSubjectRequirements(p.subjectMinimums, p.subjectMinimumsAsPercentage);
     const reqHtml = reqLines
       ? `<ul class="subject-req-list">${reqLines.map((l) => `<li>${l}</li>`).join("")}</ul>`
       : `<span class="muted">None required</span>`;
@@ -756,7 +793,7 @@ function renderChancesDetail(uni, container) {
 
   container.innerHTML =
     `<div class="chances-uni-header">
-      <span class="small">Your APS for this university: <strong>${uni.aps}</strong></span>
+      <span class="small">Your ${scoreLabel}: <strong>${uni.aps}</strong></span>
     </div>` + programmesHtml;
 }
 
@@ -817,7 +854,7 @@ function renderResults(visibleUniversities) {
 
     const programmesHtml = displayProgrammes
       .map((p) => {
-        const reqLines = formatSubjectRequirements(p.subjectMinimums);
+        const reqLines = formatSubjectRequirements(p.subjectMinimums, p.subjectMinimumsAsPercentage);
         const reqHtml = reqLines
           ? `<ul class="subject-req-list">${reqLines.map((l) => `<li>${l}</li>`).join("")}</ul>`
           : `<span class="muted">None required</span>`;
@@ -1574,6 +1611,7 @@ function clearLegacyStorage() {
     "unipath_last_result_v3",
     "unipath_rules_cache",
     "unipath_rules_cache_v2",
+    "unipath_rules_cache_v3",
   ].forEach((key) => localStorage.removeItem(key));
 }
 
